@@ -1,9 +1,23 @@
+'use client'
+import { useEffect } from 'react'
 import './globals.css'
 import Link from 'next/link'
 import Image from 'next/image'
 import { COLORS, WHATSAPP_URL, CALCULATOR_URLS } from '@/lib/constants'
 
 export default function Home() {
+  useEffect(() => {
+    const nav = document.getElementById('nav');
+    if (nav) {
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 50) {
+          nav.classList.add('scrolled');
+        } else {
+          nav.classList.remove('scrolled');
+        }
+      });
+    }
+  }, []);
   return (
     <main>
       {/* 1. NAV */}
@@ -332,37 +346,31 @@ export default function Home() {
               <div className="servico-icon">🧠</div>
               <h3>Diagnóstico Comportamental</h3>
               <p>VIPE ID, Money Scripts e Vieses Cognitivos. Mapeamos como seu cérebro lida com dinheiro.</p>
-              <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="servico-btn">Saiba mais →</a>
             </div>
             <div className="servico-card">
               <div className="servico-icon">👨‍👩‍👧‍👦</div>
               <h3>Código da Família</h3>
               <p>Metodologia de alinhamento financeiro para casais. As 3 Perguntas de Kinder transformam discussões de dinheiro em conversas de propósito.</p>
-              <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="servico-btn">Saiba mais →</a>
             </div>
             <div className="servico-card">
               <div className="servico-icon">📊</div>
               <h3>Método VFP</h3>
               <p>Viabilidade Financeira de Projetos. Parecer matemático e comportamental antes de decisões grandes.</p>
-              <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="servico-btn">Saiba mais →</a>
             </div>
             <div className="servico-card">
               <div className="servico-icon">📱</div>
               <h3>APP Castelo Forte</h3>
               <p>Gerenciador com IA comportamental, nudges personalizados e conexão com consultor.</p>
-              <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="servico-btn">Saiba mais →</a>
             </div>
             <div className="servico-card">
               <div className="servico-icon">💰</div>
               <h3>Inteligência Financeira</h3>
               <p>Otimização de taxas, milhas, produtos bancários. Estancamos o sangramento dos bancos.</p>
-              <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="servico-btn">Saiba mais →</a>
             </div>
             <div className="servico-card">
               <div className="servico-icon">🛡️</div>
               <h3>Gestão Patrimonial</h3>
               <p>Alocação de ativos personalizada ao perfil VIPE, objetivos de vida e horizonte temporal.</p>
-              <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="servico-btn">Saiba mais →</a>
             </div>
           </div>
         </div>
