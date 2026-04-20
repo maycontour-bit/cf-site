@@ -154,19 +154,19 @@ body {
 }
 
 .hero-tag {
-  font-size: 0.7rem;
+  font-size: 1.1rem;
   font-weight: 600;
   color: var(--gold);
   letter-spacing: 5px;
   text-transform: uppercase;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 
 .hero h1 {
   font-family: var(--font-title);
-  font-size: clamp(2.8rem, 5.5vw, 4rem);
+  font-size: clamp(2.2rem, 4.5vw, 3.5rem);
   line-height: 1.1;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .hero h1 span {
@@ -174,7 +174,7 @@ body {
 }
 
 .hero-subtitle {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   color: rgba(253,253,253,0.8);
   margin-bottom: 32px;
   line-height: 1.7;
@@ -213,30 +213,30 @@ body {
 }
 
 .section-tag {
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   font-weight: 600;
   color: var(--gold);
   letter-spacing: 3px;
   text-transform: uppercase;
   text-align: center;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 
 .section-title {
   font-family: var(--font-title);
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   text-align: center;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 
 .section-subtitle {
   color: var(--gray-muted);
   text-align: center;
-  margin-bottom: 48px;
-  max-width: 500px;
+  margin-bottom: 40px;
+  max-width: 520px;
   margin-left: auto;
   margin-right: auto;
-  font-size: 1.15rem;
+  font-size: 1rem;
 }
 
 /* Custo Amanhã Grid */
@@ -1044,17 +1044,17 @@ body {
 
 .historia-manifesto blockquote {
   font-family: var(--font-title);
-  font-size: 1.8rem;
+  font-size: 2.4rem;
   font-weight: 700;
   color: var(--gold);
-  margin-bottom: 24px;
+  margin-bottom: 20px;
   font-style: italic;
 }
 
 .historia-manifesto p {
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: rgba(253,253,253,0.85);
-  margin-bottom: 16px;
+  margin-bottom: 14px;
   line-height: 1.7;
 }
 
