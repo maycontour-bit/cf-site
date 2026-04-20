@@ -495,7 +495,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* NOSTSA HISTÓRIA }-    <section className="section" id="historia">
+      {/* NOSSA HISTÓRIA */}    <section className="section" id="historia">
         <div className="container">
           <p className="section-tag">Nossa História</p>
           <h2 className="section-title">O Castelo Forte</h2>
