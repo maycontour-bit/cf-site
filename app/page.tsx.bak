@@ -31,7 +31,7 @@ export default function Home() {
             <a href="#metodo">Método</a>
             <a href="#servicos">Serviços</a>
             <a href="#planos">Planos</a>
-            <a href="#historia">Nossa História</a>
+            <a href="#calc">Calculadoras</a>
             <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary">Agendar diagnóstico</a>
           </div>
         </div>
@@ -492,35 +492,6 @@ export default function Home() {
           </div>
           
           <p className="verse">"O homem de bem deixa herança para os filhos de seus filhos." — Provérbios 13:22</p>
-        </div>
-      </section>
-
-      {/* NOSTSA HISTÓRIA }-    <section className="section" id="historia">
-        <div className="container">
-          <p className="section-tag">Nossa História</p>
-          <h2 className="section-title">O Castelo Forte</h2>
-          <p className="section-subtitle">15 anos nos maiores bancos do país. Uma missão: proteger quem construye.</p>
-          
-          <div className="historia-manifesto">
-            <blockquote>Se alguém te prometeu riqueza… cuidado!</blockquote>
-            <p>Passamos 15 anos dentro dos maiores bancos do país. Vimos coisas que ninguém te conta.</p>
-            <p>Eu vi pessoas ganando mais de 50 mil por mês… falidas emocionalmente.</p>
-            <p>Vi famílias destruídas pordinheiro. Vi pessoas honestas com medo de boleto.</p>
-            <p>E mesmo assim… o mercado continua prometendo riqueza. Mas me responde… Quem consegue garantir o amanhã?</p>
-            <div className="historia-divider"></div>
-            <h3>Existe uma guerra pelo seu patrimônio agora.</h3>
-            <ul>
-              <li>De um lado: o sistema bancário lucrando 140 bilhões com a sua desorganização.</li>
-              <li>Do outro: os gurus vendendo milagres que alimenta a sua ganância.</li>
-              <li>E você está no meio, vivendo no piloto automático, pagando o custo do amanhã que nunca chega.</li>
-            </ul>
-            <p className="historia-final">Porque o problema não é o conhecimento… é sim como você se comporta em relação ao dinheiro.</p>
-            <p>A ciência já provou: <strong>80% comportamento e 20% conhecimento</strong></p>
-            <p>Aliamos a nossa experiência do mercado financeiro com o entendimento profundo de como a mente humana se comporta em relação ao dinheiro.</p>
-            <div className="historia-quote">
-              <p>"Afinal, riqueza não se constrói com promessa. Se constrói com princípios."</p>
-            </div>
-          </div>
         </div>
       </section>
 

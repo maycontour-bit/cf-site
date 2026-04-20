@@ -1035,3 +1035,79 @@ body {
     gap: 24px;
   }
 }
+/* Nossa História */
+.historia-manifesto {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.historia-manifesto blockquote {
+  font-family: var(--font-title);
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--gold);
+  margin-bottom: 24px;
+  font-style: italic;
+}
+
+.historia-manifesto p {
+  font-size: 1.1rem;
+  color: rgba(253,253,253,0.85);
+  margin-bottom: 16px;
+  line-height: 1.7;
+}
+
+.historia-manifesto ul {
+  list-style: none;
+  margin: 24px 0;
+  text-align: left;
+  max-width: 500px;
+  margin: 24px auto;
+}
+
+.historia-manifesto ul li {
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  color: rgba(253,253,253,0.8);
+}
+
+.historia-manifesto ul li::before {
+  content: "•";
+  color: var(--gold);
+  margin-right: 12px;
+}
+
+.historia-divider {
+  width: 100px;
+  height: 2px;
+  background: var(--gold);
+  margin: 32px auto;
+}
+
+.historia-manifesto h3 {
+  font-family: var(--font-title);
+  font-size: 1.4rem;
+  color: var(--white);
+  margin-bottom: 16px;
+}
+
+.historia-final {
+  font-size: 1.2rem !important;
+  color: var(--gold) !important;
+  font-weight: 600;
+}
+
+.historia-quote {
+  background: rgba(196,163,90,0.1);
+  border-left: 3px solid var(--gold);
+  padding: 24px;
+  margin-top: 32px;
+}
+
+.historia-quote p {
+  font-style: italic;
+  color: var(--white);
+  margin: 0;
+  font-size: 1.1rem;
+}
