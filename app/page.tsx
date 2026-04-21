@@ -231,7 +231,7 @@ export default function Home() {
                 <span className="jornada-label">Nível 03</span>
                 <h4>O plano de ação</h4>
                 <p className="jornada-tech"><em>Plano Mestre</em></p>
-                <p>Orçamento, investimentos e projetos desenhados para o seu perfil — não para o perfil do banco.</p>
+                <p>Orçamento e investimentos desenhados para seu perfil e com tempo trabalhando pra você — não para o banco.</p>
               </div>
               <div className="jornada-nivel jornada-nivel-2">
                 <span className="jornada-label">Nível 02</span>
@@ -242,7 +242,7 @@ export default function Home() {
               <div className="jornada-nivel jornada-nivel-1">
                 <span className="jornada-label">↓ Nível 01</span>
                 <h4>Quem você é</h4>
-                <p className="jornada-tech"><em>Geometria Pessoal</em></p>
+                <p className="jornada-tech"><em>Identidade e Propósito</em></p>
                 <p>Antes de falar de dinheiro, descobrimos seu propósito, por quem e pra quem você quer que você terá sucesso financeiro.</p>
               </div>
             </div>
@@ -396,7 +396,7 @@ export default function Home() {
             <div className="servico-card">
               <div className="servico-icon">📱</div>
               <h3>Gerenciador Financeiro com IA</h3>
-              <p>Seu orçamento integrado a mudanças dos seus hábitos financeiros.</p>
+              <p>Seu dinheiro organizado e integrado as soluções para mudar seus hábitos financeiros.</p>
             </div>
             <div className="servico-card">
               <div className="servico-icon">💰</div>
