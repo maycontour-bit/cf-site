@@ -116,9 +116,7 @@ export default function Home() {
         <div className="container">
           <p className="section-tag">O Custo do Amanhã</p>
           <h2 className="section-title">R$ 420.000 perdidos em 10 anos</h2>
-          <p className="section-subtitle"}>A procrastinação é o imposto mais caro que você paga...</p>
-          
-          <p className="custo-urgencia">Cada dia que passa, R$ 115 se vão do seu patrimônio. Quantos dias mais você vai esperar?</p>
+          <p className="section-subtitle">A procrastinação é o imposto mais caro que você paga...</p>
           
           <p className="custo-urgencia">Cada dia que passa, R$ 115 se vão do seu patrimônio. Quantos dias mais você vai esperar?</p>
           
@@ -382,32 +380,32 @@ export default function Home() {
             <div className="servico-card">
               <div className="servico-icon">🧠</div>
               <h3>Diagnóstico Comportamental</h3>
-              <p>VIPE ID, Money Scripts e Vieses Cognitivos. Mapeamos como seu cérebro lida com dinheiro.</p>
+              <p>Por que você toma decisões financeiras que sabe que são erradas? Nós descobrimos.</p>
             </div>
             <div className="servico-card">
               <div className="servico-icon">👨‍👩‍👧‍👦</div>
               <h3>Código da Família</h3>
-              <p>Metodologia de alinhamento financeiro para casais. perguntas que revelam seus valores mais profundos transformam discussões de dinheiro em conversas de propósito.</p>
+              <p>70% dos divórcios têm o dinheiro como causa. O problema não é falta de dinheiro — é falta de alinhamento.</p>
             </div>
             <div className="servico-card">
               <div className="servico-icon">📊</div>
               <h3>Método VFP</h3>
-              <p>Viabilidade Financeira de Projetos. Parecer matemático e comportamental antes de decisões grandes.</p>
+              <p>Aquele imóvel, aquele carro, aquela sociedade — você fez a conta de verdade antes de assinar?</p>
             </div>
             <div className="servico-card">
               <div className="servico-icon">📱</div>
               <h3>APP Castelo Forte</h3>
-              <p>Gerenciador com IA comportamental, nudges personalizados e conexão com consultor.</p>
+              <p>Quantos apps e bancos você usa? E ainda não sabe para onde vai o dinheiro? Aqui tudo se conecta.</p>
             </div>
             <div className="servico-card">
               <div className="servico-icon">💰</div>
               <h3>Inteligência Financeira</h3>
-              <p>Otimização de taxas, milhas, produtos bancários. Estancamos o sangramento dos bancos.</p>
+              <p>Você sabe o que seu banco cobra de você? E anuidade do seu cartão? O mundo bancário revelado — use o sistema a seu favor.</p>
             </div>
             <div className="servico-card">
               <div className="servico-icon">🛡️</div>
               <h3>Gestão Patrimonial</h3>
-              <p>Alocação de ativos personalizada ao perfil VIPE, objetivos de vida e horizonte temporal.</p>
+              <p>Seus investimentos te deixam dormir tranquilo ou acordar às 3h? Raio-X completo do seu patrimônio.</p>
             </div>
           </div>
         </div>
@@ -532,7 +530,7 @@ export default function Home() {
           <p className="section-subtitle">15 anos nos maiores bancos do país. Uma missão: proteger quem construye.</p>
           
           <div className="historia-manifesto">
-            <blockquote>Se alguém te prometeu riqueza… cuidado!</blockquote>
+            <blockquote>Se alguém te prometeu riqueza, cuidado.</blockquote>
             <p>Passamos 15 anos dentro dos maiores bancos do país. Vimos coisas que ninguém te conta.</p>
             <p>Eu vi pessoas ganando mais de 50 mil por mês… falidas emocionalmente.</p>
             <p>Vi famílias destruídas pordinheiro. Vi pessoas honestas com medo de boleto.</p>
