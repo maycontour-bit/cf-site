@@ -385,7 +385,7 @@ export default function Home() {
             <div className="servico-card">
               <div className="servico-icon">👨‍👩‍👧‍👦</div>
               <h3>Código da Família</h3>
-              <p>Metodologia de alinhamento financeiro para casais. As 3 Perguntas de Kinder transformam discussões de dinheiro em conversas de propósito.</p>
+              <p>Metodologia de alinhamento financeiro para casais. perguntas que revelam seus valores mais profundos transformam discussões de dinheiro em conversas de propósito.</p>
             </div>
             <div className="servico-card">
               <div className="servico-icon">📊</div>
@@ -414,7 +414,7 @@ export default function Home() {
       {/* 7. PLANOS */}
       <section className="section section-alt" id="planos">
         <div className="container">
-          <p className="section-tag">A Arquitetura da Sua Liberdade</p>
+          <p className="section-tag">Os Planos</p>
           <h2 className="section-title">Escolha sua jornada</h2>
           
           <div className="planos-grid">
@@ -423,16 +423,14 @@ export default function Home() {
               <p className="plano-price">R$ 475<span style={{fontSize: '1rem', fontWeight: 400}}>/mês</span></p>
               <p className="plano-tag">O início da jornada</p>
               <ul className="plano-features">
-                <li>Diagnóstico VIPE ID completo</li>
-                <li>Money Scripts + Vieses Cognitivos</li>
-                <li>Chave Mestra: foco no gargalo #1</li>
-                <li>APP Castelo Forte com IA</li>
-                <li>Inteligência Financeira bancária</li>
-                <li>Gestão de Patrimônio personalizada</li>
+                <li><strong>VIPE ID</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Como seu cérebro toma decisões financeiras.</em></li>
+                <li><strong>Money Scripts</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Identifique as crenças invisíveis que sabotam seu patrimônio.</em></li>
+                <li><strong>Vieses Cognitivos</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>As 12 armadilhas mentais que te fazem perder dinheiro.</em></li>
+                <li><strong>Gerenciador Financeiro com IA</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Seu dinheiro organizado e conectado aos seus bancos em tempo real.</em></li>
+                <li><strong>Método VFP</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Parecer matemático antes de cada decisão financeira importante.</em></li>
+                <li><strong>Inteligência Financeira</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>O mundo bancário revelado — use o sistema a seu favor.</em></li>
+                <li><strong>Gestão de Patrimônio</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Raio-X completo e estratégia para cada real do seu patrimônio.</em></li>
               </ul>
-              <div className="plano-roi">
-                <p>ROI: Paga-se a si mesmo cortando a ineficiência do banco.</p>
-              </div>
               <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn btn-outline" style={{width: '100%', textAlign: 'center'}}>Saiba mais</a>
             </div>
             
@@ -442,16 +440,13 @@ export default function Home() {
               <p className="plano-price">R$ 995<span style={{fontSize: '1rem', fontWeight: 400}}>/mês</span></p>
               <p className="plano-tag">Transformação completa</p>
               <ul className="plano-features">
-                <li>Tudo do Estandarte +</li>
-                <li>Código da Família (alinhamento casal)</li>
-                <li>Método VFP para decisões de projetos</li>
-                <li>Energia Vital (custo real da sua vida)</li>
-                <li>Kingdom's Seed (networking cristão)</li>
-                <li>VIPE Assessment avançado</li>
+                <li><strong>Tudo do Estandarte +</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Todas as 7 ferramentas incluídas.</em></li>
+                <li><strong>Código da Família</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Diga adeus a briga em casa por dinheiro.</em></li>
+                <li><strong>Energia Vital</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Saiba quanto custa sua vida.</em></li>
+                <li><strong>DNA Organizacional</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Alinhe visão, valores e finanças com seus sócios.</em></li>
+                <li><strong>Kingdom's Seed</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Rede de empresários cristão que fazem negócios com propósito.</em></li>
+                <li><strong>VIPE Assessment</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Análise comportamental profunda — perfil natural vs. adaptado.</em></li>
               </ul>
-              <div className="plano-roi">
-                <p>ROI: Blindagem contra más decisões + alinhamento do legado.</p>
-              </div>
               <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{width: '100%', textAlign: 'center'}}>Começar agora</a>
             </div>
             
@@ -460,16 +455,13 @@ export default function Home() {
               <p className="plano-price">Customizado</p>
               <p className="plano-tag">Gestão de elite</p>
               <ul className="plano-features">
-                <li>Tudo do Legado +</li>
-                <li>Segurança jurídica</li>
-                <li>Otimização tributária</li>
-                <li>Planejamento sucessório</li>
-                <li>Estruturação de holdings</li>
-                <li>Time multidisciplinar</li>
+                <li><strong>Tudo do Legado +</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Todas as ferramentas anteriores incluídas.</em></li>
+                <li><strong>Segurança Jurídica</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Proteção legal para seu patrimônio e operações.</em></li>
+                <li><strong>Otimização Tributária</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Pague menos impostos dentro da lei — cada centavo conta.</em></li>
+                <li><strong>Planejamento Sucessório</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Garanta que seu legado llegue às próximas gerações sem perdas.</em></li>
+                <li><strong>Estruturação de Holdings</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Proteção e multiplicação do patrimônio com estrutura societária.</em></li>
+                <li><strong>Time Multidisciplinar</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Advogados, contadores e especialistas dedicados ao seu caso.</em></li>
               </ul>
-              <div className="plano-roi">
-                <p>Para patrimônios que exigem gestão premium.</p>
-              </div>
               <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn btn-outline" style={{width: '100%', textAlign: 'center'}}>Saiba mais</a>
             </div>
           </div>
@@ -504,17 +496,18 @@ export default function Home() {
         <div className="container">
           <p className="section-tag">Comece Sua Transformação</p>
           <h2 className="section-title">De que lado você quer estar?</h2>
+          <p className="cta-urgencia">Cada dia que passa, R$ 115 se vão do seu patrimônio.</p>
           
           <div className="cta-cards">
-            <div className="cta-card red">
+            <div className="cta-card cta-banco">
               <h3>O Banco</h3>
               <p>quer sua taxa</p>
             </div>
-            <div className="cta-card red">
+            <div className="cta-card cta-guru">
               <h3>O Guru</h3>
               <p>quer seu like</p>
             </div>
-            <div className="cta-card gold">
+            <div className="cta-card cta-castelo">
               <h3>A Castelo Forte</h3>
               <p>quer o seu Legado</p>
             </div>

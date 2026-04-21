@@ -1380,3 +1380,64 @@ body {
   margin-bottom: 32px;
   font-family: var(--font-title);
 }
+
+/* CTA urgencia */
+.cta-urgencia {
+  color: #E57373;
+  font-style: italic;
+  font-size: 1rem;
+  text-align: center;
+  margin: 16px 0 32px;
+}
+
+/* CTA cards - stronger contrast */
+.cta-card {
+  padding: 32px 24px;
+  border-radius: 4px;
+  text-align: center;
+  flex: 1;
+  min-width: 200px;
+}
+
+.cta-banco {
+  border-top: 3px solid #C0392B;
+  background: rgba(192,57,43,0.08);
+}
+
+.cta-guru {
+  border-top: 3px solid #C0392B;
+  background: rgba(192,57,43,0.08);
+}
+
+.cta-castelo {
+  border-top: 3px solid var(--gold);
+  background: rgba(196,163,90,0.1);
+}
+
+.cta-castelo h3 {
+  color: var(--gold) !important;
+  font-weight: 700;
+}
+
+.cta-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 8px;
+  font-family: var(--font-title);
+}
+
+/* Plano features with descriptions */
+.plano-features {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.plano-features li {
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  font-size: 0.95rem;
+}
+
+.plano-features li:last-child {
+  border-bottom: none;
+}
