@@ -53,7 +53,7 @@ export default function Home() {
               <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary">Agendar diagnóstico gratuito</a>
               <a href="#metodo" className="btn btn-outline">Conheça o método</a>
             </div>
-            <p className="hero-expertise" style={{color: "#7A8A9A", fontSize: "11px", fontStyle: "italic", textAlign: "center", marginBottom: "8px"}}>Nossa Expertise</p>
+            <p style={{color: "#7A8A9A", fontSize: "13px", fontStyle: "italic", textAlign: "center", marginBottom: "12px", fontWeight: 500, letterSpacing: "0.5px"}}>Nossa Expertise</p>
             <div className="hero-stats">
               <div className="hero-stat">
                 <strong>15+ Anos</strong>
@@ -118,8 +118,6 @@ export default function Home() {
           <p className="section-tag">O Custo do Amanhã</p>
           <h2 className="section-title">R$ 420.000 perdidos em 10 anos</h2>
           <p className="section-subtitle">A procrastinação é o imposto mais caro que você paga...</p>
-          
-          <p className="custo-urgencia">Cada dia que passa, R$ 115 se vão do seu patrimônio. Quantos dias mais você vai esperar?</p>
           
           <div className="custo-grid">
             <div className="custo-card">
