@@ -225,7 +225,7 @@ export default function Home() {
                 <span className="jornada-label">↗ Nível 04</span>
                 <h4>Viver com propósito</h4>
                 <p className="jornada-tech"><em>Life Wealth</em></p>
-                <p>Viva seu propósito com suas finanças estruturadas, domine sobre suas decisões e um legado que seus filhos vão herdar.</p>
+                <p>Viva seu propósito com suas finanças estruturadas, domine sobre seu patrimônio e um legado que seus filhos vão herdar.</p>
               </div>
               <div className="jornada-nivel jornada-nivel-3">
                 <span className="jornada-label">Nível 03</span>
@@ -235,15 +235,15 @@ export default function Home() {
               </div>
               <div className="jornada-nivel jornada-nivel-2">
                 <span className="jornada-label">Nível 02</span>
-                <h4>O que te traz paz</h4>
+                <h4>O Contentamento Financiado</h4>
                 <p className="jornada-tech"><em>Prioridades</em></p>
-                <p>Calculamos o número exato que você precisa para viver em paz — sem excesso, sem escassez.</p>
+                <p>Calculamos o número exato que você precisa para viver em paz, sem escassez e com tempo pro que mais importa.</p>
               </div>
               <div className="jornada-nivel jornada-nivel-1">
                 <span className="jornada-label">↓ Nível 01</span>
                 <h4>Quem você é</h4>
-                <p className="jornada-tech"><em>Identidade</em></p>
-                <p>Descobrimos seus valores e prioridades reais — o que você não abre mão.</p>
+                <p className="jornada-tech"><em>Geometria Pessoal</em></p>
+                <p>Antes de falar de dinheiro, descobrimos seu propósito, por quem e pra quem você quer que você terá sucesso financeiro.</p>
               </div>
             </div>
           </div>
@@ -396,7 +396,7 @@ export default function Home() {
             <div className="servico-card">
               <div className="servico-icon">📱</div>
               <h3>Gerenciador Financeiro com IA</h3>
-              <p>Quantos apps e bancos você usa? E ainda não sabe para onde vai o dinheiro? Aqui tudo se conecta.</p>
+              <p>Seu orçamento integrado a mudanças dos seus hábitos financeiros.</p>
             </div>
             <div className="servico-card">
               <div className="servico-icon">💰</div>
