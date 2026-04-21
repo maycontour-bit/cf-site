@@ -89,7 +89,7 @@ body {
 .btn {
   display: inline-block;
   padding: 13px 28px;
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -280,7 +280,7 @@ body {
 }
 
 .custo-legenda {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   color: var(--gold);
   font-style: italic;
   margin-top: 12px;
@@ -302,7 +302,7 @@ body {
   top: 8px;
   left: 8px;
   padding: 4px 10px;
-  font-size: 0.65rem;
+  font-size: 0.75rem;
   font-weight: 600;
   text-transform: uppercase;
   border-radius: 2px;
@@ -344,12 +344,12 @@ body {
 
 .reconhece-icon {
   color: var(--gold);
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: bold;
 }
 
 .reconhece-card p {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   line-height: 1.5;
 }
 
@@ -441,13 +441,13 @@ body {
 }
 
 .pilar-arrow {
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   margin-right: 4px;
 }
 
 .pilar-num {
   font-family: var(--font-title);
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   font-weight: 700;
   color: var(--gold);
   min-width: 40px;
@@ -490,18 +490,18 @@ body {
 }
 
 .perfil-card h3 {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   margin-bottom: 8px;
 }
 
 .perfil-card p {
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   opacity: 0.8;
 }
 
 .perfil-extra {
   display: none;
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   color: var(--gold);
   margin-top: 8px;
   font-style: italic;
@@ -533,7 +533,7 @@ body {
 
 .servico-card h3 {
   font-family: var(--font-title);
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   margin-bottom: 12px;
 }
 
@@ -556,7 +556,7 @@ body {
 }
 
 .servico-card p {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   color: var(--gray-muted);
 }
 
@@ -596,7 +596,7 @@ body {
   transform: translateX(-50%);
   background: var(--gold);
   color: var(--navy);
-  font-size: 0.65rem;
+  font-size: 0.75rem;
   font-weight: 600;
   padding: 6px 16px;
   border-radius: 2px;
@@ -624,7 +624,7 @@ body {
 .plano-features li {
   padding: 10px 0;
   border-bottom: 1px solid rgba(255,255,255,0.07);
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -665,7 +665,7 @@ body {
 }
 
 .calc-card h3 {
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin-bottom: 8px;
 }
 
@@ -728,7 +728,7 @@ body {
 }
 
 .cta-card p {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
 }
 
 .cta-final-box {
@@ -743,7 +743,7 @@ body {
 
 .cta-final-box h2 {
   font-family: var(--font-title);
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   color: var(--gold);
   margin-bottom: 16px;
 }
@@ -763,7 +763,7 @@ body {
 
 .footer-logo {
   font-family: var(--font-title);
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-weight: 700;
   color: var(--gold);
   letter-spacing: 1.5px;
@@ -779,7 +779,7 @@ body {
 }
 
 .footer-copy {
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   color: var(--gray-muted);
 }
 
@@ -856,7 +856,7 @@ body {
   color: var(--white);
   padding: 8px 12px;
   border-radius: 4px;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   white-space: nowrap;
   opacity: 0;
   transition: opacity 0.3s;
@@ -889,7 +889,7 @@ body {
 }
 
 .energia-card h3 {
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin-bottom: 8px;
 }
 
@@ -915,7 +915,7 @@ body {
 
 .energia-depoimento cite {
   color: var(--gray-muted);
-  font-size: 0.9rem;
+  font-size: 0.95rem;
 }
 
 /* Código da Família */
@@ -969,7 +969,7 @@ body {
 
 .codigo-depoimento cite {
   color: var(--gray-muted);
-  font-size: 0.9rem;
+  font-size: 0.95rem;
 }
 
 @media (max-width: 768px) {
@@ -993,12 +993,12 @@ body {
 
 .antes-depois-card h3 {
   font-family: var(--font-title);
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   margin: 16px 0 8px;
 }
 
 .antes-depois-card p {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   color: var(--gray-muted);
 }
 
@@ -1007,7 +1007,7 @@ body {
   top: 12px;
   left: 12px;
   padding: 6px 16px;
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   font-weight: 600;
   text-transform: uppercase;
   border-radius: 2px;
@@ -1054,7 +1054,7 @@ body {
 }
 
 .historia-manifesto p {
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: rgba(253,253,253,0.85);
   margin-bottom: 14px;
   line-height: 1.7;
@@ -1089,7 +1089,7 @@ body {
 
 .historia-manifesto h3 {
   font-family: var(--font-title);
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   color: var(--white);
   margin-bottom: 16px;
 }
@@ -1141,7 +1141,7 @@ body {
 }
 
 .dor-card-title {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   margin-bottom: 16px;
 }
 
@@ -1170,7 +1170,7 @@ body {
 
 .metodo-authority {
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   color: var(--gray-muted);
   margin: 32px 0;
   font-style: italic;
@@ -1202,7 +1202,7 @@ body {
 
 .vip-card-title,
 .vipe-card-title {
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   margin-bottom: 16px;
 }
 
@@ -1282,7 +1282,7 @@ body {
 
 .jornada-label {
   display: inline-block;
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   font-weight: 600;
   color: var(--gold);
   margin-bottom: 8px;
@@ -1294,7 +1294,7 @@ body {
 }
 
 .jornada-tech {
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   font-style: italic;
   color: var(--gold);
   opacity: 0.8;
@@ -1302,7 +1302,7 @@ body {
 }
 
 .jornada-nivel p:last-child {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   color: var(--gray-muted);
   line-height: 1.5;
 }
@@ -1327,7 +1327,7 @@ body {
 
 /* Seta de progressão */
 .jornada-label {
-  font-size: 0.65rem;
+  font-size: 0.75rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -1358,7 +1358,7 @@ body {
 
 /* Checkbox vazio */
 .reconhece-icon {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: var(--gold);
   margin-right: 4px;
 }
@@ -1367,7 +1367,7 @@ body {
 .custo-urgencia {
   color: #E57373;
   font-style: italic;
-  font-size: 1rem;
+  font-size: 1.1rem;
   text-align: center;
   margin: 24px 0;
 }
@@ -1387,7 +1387,7 @@ body {
 .cta-urgencia {
   color: #E57373;
   font-style: italic;
-  font-size: 1rem;
+  font-size: 1.1rem;
   text-align: center;
   margin: 16px 0 32px;
 }
@@ -1422,7 +1422,7 @@ body {
 }
 
 .cta-card h3 {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   margin-bottom: 8px;
   font-family: var(--font-title);
 }
