@@ -1112,3 +1112,203 @@ body {
   font-size: 1.1rem;
 }
 /* v2 */
+
+/* BLOCO 1: A DOR */
+.metodo-dor-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin: 40px 0;
+}
+
+.dor-card {
+  padding: 28px;
+  border-radius: 4px;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.dor-card-mercado {
+  border-top: 3px solid var(--red-danger);
+  background: rgba(192,57,43,0.05);
+}
+
+.dor-card-castelo {
+  border-top: 3px solid var(--gold);
+  background: rgba(196,163,90,0.05);
+}
+
+.dor-card-title {
+  font-size: 1.2rem;
+  margin-bottom: 16px;
+}
+
+.dor-card-mercado .dor-card-title {
+  color: var(--red-danger);
+}
+
+.dor-card-castelo .dor-card-title {
+  color: var(--gold);
+}
+
+.dor-card ul {
+  list-style: none;
+}
+
+.dor-card ul li {
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  font-size: 0.95rem;
+  color: rgba(253,253,253,0.85);
+}
+
+.dor-card ul li:last-child {
+  border-bottom: none;
+}
+
+.metodo-authority {
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--gray-muted);
+  margin: 32px 0;
+  font-style: italic;
+}
+
+/* BLOCO 2: VIP vs VIPE */
+.vip-vipe-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin: 40px 0;
+}
+
+.vip-card,
+.vipe-card {
+  padding: 32px;
+  border-radius: 4px;
+  background: rgba(255,255,255,0.03);
+}
+
+.vip-card {
+  border-top: 3px solid var(--red-danger);
+}
+
+.vipe-card {
+  border-top: 3px solid var(--gold);
+  background: rgba(196,163,90,0.06);
+}
+
+.vip-card-title,
+.vipe-card-title {
+  font-size: 1.4rem;
+  margin-bottom: 16px;
+}
+
+.vip-card-title {
+  color: var(--red-danger);
+}
+
+.vipe-card-title {
+  color: var(--gold);
+  font-weight: 700;
+}
+
+.vipe-card-subtitle {
+  font-size: 0.85rem;
+  color: var(--gray-muted);
+  margin-bottom: 20px;
+  margin-top: -8px;
+}
+
+.vip-card ul li,
+.vipe-card ul li {
+  list-style: none;
+  padding: 10px 0;
+  font-size: 0.95rem;
+  color: rgba(253,253,253,0.85);
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.vip-card ul li:last-child,
+.vipe-card ul li:last-child {
+  border-bottom: none;
+}
+
+.vip-vipe-quote {
+  text-align: center;
+  font-size: 1.1rem;
+  color: var(--gold);
+  font-style: italic;
+  margin: 32px 0;
+}
+
+/* BLOCO 3: A JORNADA */
+.jornada-section {
+  margin-top: 48px;
+}
+
+.jornada-title {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+.jornada-subtitle {
+  color: var(--gray-muted);
+  margin-bottom: 32px;
+}
+
+.jornada-piramide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.jornada-nivel {
+  padding: 20px 32px;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.07);
+  border-radius: 4px;
+  text-align: center;
+  max-width: 600px;
+}
+
+.jornada-nivel-1 { width: 100%; border-color: rgba(196,163,90,0.3); }
+.jornada-nivel-2 { width: 85%; border-color: rgba(196,163,90,0.25); }
+.jornada-nivel-3 { width: 70%; border-color: rgba(196,163,90,0.2); }
+.jornada-nivel-4 { width: 55%; border-top: 3px solid var(--gold); }
+
+.jornada-label {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--gold);
+  margin-bottom: 8px;
+}
+
+.jornada-nivel h4 {
+  font-size: 1.1rem;
+  margin-bottom: 4px;
+}
+
+.jornada-tech {
+  font-size: 0.75rem;
+  font-style: italic;
+  color: var(--gold);
+  opacity: 0.8;
+  margin-bottom: 8px;
+}
+
+.jornada-nivel p:last-child {
+  font-size: 0.9rem;
+  color: var(--gray-muted);
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .metodo-dor-grid,
+  .vip-vipe-grid {
+    grid-template-columns: 1fr;
+  }
+  .jornada-nivel { width: 100% !important; }
+}

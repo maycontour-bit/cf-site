@@ -163,60 +163,89 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 4. MÉTODO VIPE */}
+      {/* 4. MÉTODO VIPE - NOVA VERSÃO */}
       <section className="section" id="metodo">
         <div className="container">
-          <div className="metodo-grid">
-            <div className="metodo-content">
-              <p className="section-tag">O Método</p>
-              <h2 className="section-title">Método VIPE</h2>
-              <p className="section-subtitle" style={{marginLeft: 0, textAlign: 'left'}}>Valores Inegociáveis, Princípios Eternos</p>
-              
-              <div className="metodo-divider"></div>
-              
-              <p>Sucesso financeiro é 80% comportamento e 20% técnica. O mercado foca apenas nos 20%. Nós tratamos os 100%.</p>
-              <p>Unimos Economia Comportamental, sabedoria de princípios eternos e 15 anos nos maiores bancos do país.</p>
-              
-              <div className="metodo-quote">
-                <p>"O banco cuida do seu dinheiro. A Castelo Forte cuida de quem ganha o dinheiro."</p>
-              </div>
-              
-              <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary">Quero conhecer o método</a>
+          <p className="section-tag">O Método</p>
+          <h2 className="section-title">Por que profissionais brilhantes tomam decisões financeiras tão ruins?</h2>
+          <p className="section-subtitle">Te ensinam a investir. Não te ensinam por que você sabota o que investiu.</p>
+          
+          {/* BLOCO 1: A DOR */}
+          <div className="metodo-dor-grid">
+            <div className="dor-card dor-card-mercado">
+              <h3 className="dor-card-title">O que o mercado faz</h3>
+              <ul>
+                <li>Foca nos 20% — produtos, taxas e rentabilidade.</li>
+                <li>Trata o sintoma. Ignora a causa.</li>
+              </ul>
             </div>
-            
-            <div className="pilares-list">
-              <div className="pilar-card">
-                <div className="pilar-num"><span className="pilar-arrow">↓</span> 01</div>
-                <div>
-                  <p className="pilar-title">Espírito: Identidade</p>
-                  <p className="pilar-desc">Seus Valores Inegociáveis e as 3 Perguntas de Kinder</p>
-                </div>
+            <div className="dor-card dor-card-castelo">
+              <h3 className="dor-card-title">O que a Castelo Forte faz</h3>
+              <ul>
+                <li>Trata os 80% — comportamento, crenças e decisões.</li>
+                <li>E depois alinha os 20% ao seu perfil real.</li>
+              </ul>
+            </div>
+          </div>
+          <p className="metodo-authority">Kahneman, Nobel de Economia: sucesso financeiro é 80% comportamento e 20% técnica.</p>
+          
+          {/* BLOCO 2: VIP vs VIPE */}
+          <div className="vip-vipe-grid">
+            <div className="vip-card">
+              <h3 className="vip-card-title">O Mundo Busca VIP</h3>
+              <ul>
+                <li>Status que custa a paz interior.</li>
+                <li>Carro financiado para parecer rico.</li>
+                <li>Férias no cartão para postar no Instagram.</li>
+                <li>Patrimônio de fachada, ansiedade real.</li>
+              </ul>
+            </div>
+            <div className="vipe-card">
+              <h3 className="vipe-card-title">VIPE</h3>
+              <p className="vipe-card-subtitle">Valores Inegociáveis, Princípios Eternos</p>
+              <ul>
+                <li>Patrimônio alinhado a quem você é.</li>
+                <li>Decisões financeiras com propósito.</li>
+                <li>Liberdade real, não aparência de liberdade.</li>
+                <li>Legado que atravessa gerações.</li>
+              </ul>
+            </div>
+          </div>
+          <p className="vip-vipe-quote">Seus gastos são um reflexo dos seus valores. Se o extrato não combina com o que você acredita, algo está errado.</p>
+          
+          {/* BLOCO 3: A JORNADA */}
+          <div className="jornada-section">
+            <h2 className="jornada-title">Sua jornada no Método VIPE</h2>
+            <p className="jornada-subtitle">4 níveis. Da raiz ao topo. Sem atalhos.</p>
+            <div className="jornada-piramide">
+              <div className="jornada-nivel jornada-nivel-4">
+                <span className="jornada-label">Nível 04 ↗</span>
+                <h4>Viver com propósito</h4>
+                <p className="jornada-tech">Life Wealth</p>
+                <p>Plenitude financeira, domínio sobre suas decisões e um legado que seus filhos vão herdar.</p>
               </div>
-              <div className="pilar-card">
-                <div className="pilar-num">02</div>
-                <div>
-                  <p className="pilar-title">Alma: Prioridades</p>
-                  <p className="pilar-desc">Funded Contentment, o cálculo exato da paz de espírito</p>
-                </div>
+              <div className="jornada-nivel jornada-nivel-3">
+                <span className="jornada-label">Nível 03</span>
+                <h4>O plano de ação</h4>
+                <p className="jornada-tech">Plano Mestre</p>
+                <p>Orçamento, investimentos e projetos desenhados para o seu perfil — não para o perfil do banco.</p>
               </div>
-              <div className="pilar-card">
-                <div className="pilar-num">03</div>
-                <div>
-                  <p className="pilar-title">Corpo: Plano Mestre</p>
-                  <p className="pilar-desc">Orçamento Base Zero, Projetos, Investimentos</p>
-                </div>
+              <div className="jornada-nivel jornada-nivel-2">
+                <span className="jornada-label">Nível 02</span>
+                <h4>O que te traz paz</h4>
+                <p className="jornada-tech">Prioridades</p>
+                <p>Calculamos o número exato que você precisa para viver em paz — sem excesso, sem escassez.</p>
               </div>
-              <div className="pilar-card">
-                <div className="pilar-num">04 ↑</div>
-                <div>
-                  <p className="pilar-title">Life Wealth</p>
-                  <p className="pilar-desc">Plenitude, Domínio e Legado que atravessa gerações</p>
-                </div>
+              <div className="jornada-nivel jornada-nivel-1">
+                <span className="jornada-label">Nível 01 ↓</span>
+                <h4>Quem você é</h4>
+                <p className="jornada-tech">Identidade</p>
+                <p>Antes de falar de dinheiro, descobrimos seus valores, suas prioridades reais e o que você não abre mão.</p>
               </div>
             </div>
           </div>
           
-          <p className="verse">"Os planos bem elaborados levam à fartura." — Provérbios 21:5</p>
+          <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{marginTop: '40px'}}>Quero conhecer o método</a>
         </div>
       </section>
 
