@@ -1353,3 +1353,30 @@ body {
   margin-top: 48px;
   font-size: 1.1rem;
 }
+
+/* Checkbox vazio */
+.reconhece-icon {
+  font-size: 1.2rem;
+  color: var(--gold);
+  margin-right: 4px;
+}
+
+/* Custo urgência */
+.custo-urgencia {
+  color: #E57373;
+  font-style: italic;
+  font-size: 1rem;
+  text-align: center;
+  margin: 24px 0;
+}
+
+/* Código da Família highlight */
+.codigo-highlight {
+  color: var(--gold);
+  font-style: italic;
+  font-size: 1.25rem;
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  font-family: var(--font-title);
+}

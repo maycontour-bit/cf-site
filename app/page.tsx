@@ -76,31 +76,31 @@ export default function Home() {
         <div className="container">
           <p className="section-tag">O Diagnóstico</p>
           <h2 className="section-title">Você se reconhece?</h2>
-          <p className="section-subtitle">Profissionais bem-sucedidos nos procuram todos os dias com os mesmos sintomas.</p>
+          
           
           <div className="reconhece-grid">
             <div className="reconhece-card">
-              <span className="reconhece-icon">✓</span>
+              <span className="reconhece-icon">□</span>
               <p>Ganha bem, mas no fim do mês não sabe para onde o dinheiro foi</p>
             </div>
             <div className="reconhece-card">
-              <span className="reconhece-icon">✓</span>
+              <span className="reconhece-icon">□</span>
               <p>Tem patrimônio, mas a ansiedade sobre o futuro não diminui</p>
             </div>
             <div className="reconhece-card">
-              <span className="reconhece-icon">✓</span>
+              <span className="reconhece-icon">□</span>
               <p>Já tentou planilhas, apps e assessores — nada muda de verdade</p>
             </div>
             <div className="reconhece-card">
-              <span className="reconhece-icon">✓</span>
+              <span className="reconhece-icon">□</span>
               <p>Briga em casa por causa de dinheiro, mesmo com renda boa</p>
             </div>
             <div className="reconhece-card">
-              <span className="reconhece-icon">✓</span>
+              <span className="reconhece-icon">□</span>
               <p>Compra por impulso coisas que quase não usa</p>
             </div>
             <div className="reconhece-card">
-              <span className="reconhece-icon">✓</span>
+              <span className="reconhece-icon">□</span>
               <p>Não sabe se vai conseguir manter o padrão na aposentadoria</p>
             </div>
           </div>
@@ -117,6 +117,8 @@ export default function Home() {
           <p className="section-tag">O Custo do Amanhã</p>
           <h2 className="section-title">R$ 420.000 perdidos em 10 anos</h2>
           <p className="section-subtitle">A procrastinação é o imposto mais caro que você paga...</p>
+          
+          <p className="custo-urgencia">Cada dia que passa, R$ 115 se vão do seu patrimônio. Quantos dias mais você vai esperar?</p>
           
           <div className="custo-grid">
             <div className="custo-card">
@@ -256,7 +258,7 @@ export default function Home() {
         <div className="container">
           <p className="section-tag">Energia Vital</p>
           <h2 className="section-title">O custo real da sua vida — o que ninguém te conta</h2>
-          <p className="section-subtitle">Você pode ter R$ 50mil/mês e ainda estar quebrado. Sem saber o custo real, você não sabe se está gerando riqueza ou apenas mantendo aparências.</p>
+          <p className="section-subtitle">Você pode ter R$ 50mil/mês e ainda estar quebrado. Sem saber o custo real, você não sabe se está gerando riqueza ou apenas sobrevivendo com conforto.</p>
           
           <div className="energia-grid">
             <div className="energia-card">
@@ -267,7 +269,7 @@ export default function Home() {
             <div className="energia-card">
               <div className="energia-icon">🔍</div>
               <h3>Comparação Percebido x Real</h3>
-              <p>O que você acha que gasta vs. o que realmente sai do seu bolso. A diferença pode ser shockante.</p>
+              <p>O que você acha que gasta vs. o que realmente sai do seu bolso. A diferença pode ser chocante.</p>
             </div>
             <div className="energia-card">
               <div className="energia-icon">💸</div>
@@ -277,7 +279,7 @@ export default function Home() {
             <div className="energia-card">
               <div className="energia-icon">⏱️</div>
               <h3>Projeção de Sustentabilidade</h3>
-              <p>Quanto tempo você pode manter esse padrão? projection de 10, 20, 30 anos à frente.</p>
+              <p>Quanto tempo você pode manter esse padrão? Projeção de 10, 20, 30 anos à frente..</p>
             </div>
           </div>
           
@@ -314,6 +316,8 @@ export default function Home() {
               <p>O que queremos deixar para nossos filhos? Valores e patrimônio que atravessam gerações.</p>
             </div>
           </div>
+          
+          <p className="codigo-highlight">Diga adeus a briga em casa por dinheiro.</p>
           
           <div className="codigo-depoimento">
             <p>"Éramos complementares, não incompatíveis! O Código da Família mudou nossa dinâmica."</p>
