@@ -116,7 +116,7 @@ export default function Home() {
         <div className="container">
           <p className="section-tag">O Custo do Amanhã</p>
           <h2 className="section-title">R$ 420.000 perdidos em 10 anos</h2>
-          <p className="section-subtitle" style={{fontSize:"1rem",color:"var(--gray-muted)"}}>A procrastinação é o imposto mais caro que você paga...</p>
+          <p className="section-subtitle"}>A procrastinação é o imposto mais caro que você paga...</p>
           
           <p className="custo-urgencia">Cada dia que passa, R$ 115 se vão do seu patrimônio. Quantos dias mais você vai esperar?</p>
           
