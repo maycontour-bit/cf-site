@@ -1,9 +1,23 @@
+'use client'
+import { useEffect } from 'react'
 import './globals.css'
 import Link from 'next/link'
 import Image from 'next/image'
 import { COLORS, WHATSAPP_URL, CALCULATOR_URLS } from '@/lib/constants'
 
 export default function Home() {
+  useEffect(() => {
+    const nav = document.getElementById('nav');
+    if (nav) {
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 50) {
+          nav.classList.add('scrolled');
+        } else {
+          nav.classList.remove('scrolled');
+        }
+      });
+    }
+  }, []);
   return (
     <main>
       {/* 1. NAV */}
@@ -17,7 +31,7 @@ export default function Home() {
             <a href="#metodo">Método</a>
             <a href="#servicos">Serviços</a>
             <a href="#planos">Planos</a>
-            <a href="#calc">Calculadoras</a>
+            <a href="#historia">Nossa História</a>
             <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary">Agendar diagnóstico</a>
           </div>
         </div>
@@ -62,31 +76,31 @@ export default function Home() {
         <div className="container">
           <p className="section-tag">O Diagnóstico</p>
           <h2 className="section-title">Você se reconhece?</h2>
-          <p className="section-subtitle">Profissionais bem-sucedidos nos procuram todos os dias com os mesmos sintomas.</p>
+          
           
           <div className="reconhece-grid">
             <div className="reconhece-card">
-              <span className="reconhece-icon">✓</span>
+              <span className="reconhece-icon">□</span>
               <p>Ganha bem, mas no fim do mês não sabe para onde o dinheiro foi</p>
             </div>
             <div className="reconhece-card">
-              <span className="reconhece-icon">✓</span>
+              <span className="reconhece-icon">□</span>
               <p>Tem patrimônio, mas a ansiedade sobre o futuro não diminui</p>
             </div>
             <div className="reconhece-card">
-              <span className="reconhece-icon">✓</span>
+              <span className="reconhece-icon">□</span>
               <p>Já tentou planilhas, apps e assessores — nada muda de verdade</p>
             </div>
             <div className="reconhece-card">
-              <span className="reconhece-icon">✓</span>
+              <span className="reconhece-icon">□</span>
               <p>Briga em casa por causa de dinheiro, mesmo com renda boa</p>
             </div>
             <div className="reconhece-card">
-              <span className="reconhece-icon">✓</span>
+              <span className="reconhece-icon">□</span>
               <p>Compra por impulso coisas que quase não usa</p>
             </div>
             <div className="reconhece-card">
-              <span className="reconhece-icon">✓</span>
+              <span className="reconhece-icon">□</span>
               <p>Não sabe se vai conseguir manter o padrão na aposentadoria</p>
             </div>
           </div>
@@ -102,7 +116,9 @@ export default function Home() {
         <div className="container">
           <p className="section-tag">O Custo do Amanhã</p>
           <h2 className="section-title">R$ 420.000 perdidos em 10 anos</h2>
-          <p className="section-subtitle">A procrastinação é o imposto mais caro que você paga...</p>
+          <p className="section-subtitle"}>A procrastinação é o imposto mais caro que você paga...</p>
+          
+          <p className="custo-urgencia">Cada dia que passa, R$ 115 se vão do seu patrimônio. Quantos dias mais você vai esperar?</p>
           
           <div className="custo-grid">
             <div className="custo-card">
@@ -149,60 +165,91 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 4. MÉTODO VIPE */}
+      {/* 4. MÉTODO VIPE - NOVA VERSÃO */}
       <section className="section" id="metodo">
         <div className="container">
-          <div className="metodo-grid">
-            <div className="metodo-content">
-              <p className="section-tag">O Método</p>
-              <h2 className="section-title">Método VIPE</h2>
-              <p className="section-subtitle" style={{marginLeft: 0, textAlign: 'left'}}>Valores Inegociáveis, Princípios Eternos</p>
-              
-              <div className="metodo-divider"></div>
-              
-              <p>Sucesso financeiro é 80% comportamento e 20% técnica. O mercado foca apenas nos 20%. Nós tratamos os 100%.</p>
-              <p>Unimos Economia Comportamental, sabedoria de princípios eternos e 15 anos nos maiores bancos do país.</p>
-              
-              <div className="metodo-quote">
-                <p>"O banco cuida do seu dinheiro. A Castelo Forte cuida de quem ganha o dinheiro."</p>
-              </div>
-              
-              <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary">Quero conhecer o método</a>
+          <p className="section-tag">O Método</p>
+          <h2 className="section-title">Por que profissionais brilhantes tomam decisões financeiras tão ruins?</h2>
+          <p className="section-subtitle">Te ensinam a investir. Não te ensinam por que você sabota o que investiu.</p>
+          
+          {/* BLOCO 1: A DOR */}
+          <div className="metodo-dor-grid">
+            <div className="dor-card dor-card-mercado">
+              <h3 className="dor-card-title">O que o mercado faz</h3>
+              <ul>
+                <li>Foca nos 20% — produtos, taxas e rentabilidade.</li>
+                <li>Trata o sintoma. Ignora a causa.</li>
+              </ul>
             </div>
-            
-            <div className="pilares-list">
-              <div className="pilar-card">
-                <div className="pilar-num"><span className="pilar-arrow">↓</span> 01</div>
-                <div>
-                  <p className="pilar-title">Espírito: Identidade</p>
-                  <p className="pilar-desc">Seus Valores Inegociáveis e as 3 Perguntas de Kinder</p>
-                </div>
+            <div className="dor-card dor-card-castelo">
+              <h3 className="dor-card-title">O que a Castelo Forte faz</h3>
+              <ul>
+                <li>Trata os 80% — comportamento, crenças e decisões.</li>
+                <li>E depois alinha os 20% ao seu perfil real.</li>
+              </ul>
+            </div>
+          </div>
+          <p className="metodo-authority">Kahneman, Nobel de Economia: sucesso financeiro é 80% comportamento e 20% técnica.</p>
+          
+          {/* BLOCO 2: VIP vs VIPE */}
+          <div className="vip-vipe-grid">
+            <div className="vip-card">
+              <h3 className="vip-card-title">O Mundo Busca VIP</h3>
+              <ul>
+                <li>Status que custa a paz interior.</li>
+                <li>Carro financiado para parecer rico.</li>
+                <li>Férias no cartão para postar no Instagram.</li>
+                <li>Patrimônio de fachada, ansiedade real.</li>
+              </ul>
+            </div>
+            <div className="vipe-card">
+              <h3 className="vipe-card-title">VIPE</h3>
+              <p className="vipe-card-subtitle">Valores Inegociáveis, Princípios Eternos</p>
+              <ul>
+                <li>Patrimônio alinhado a quem você é.</li>
+                <li>Decisões financeiras com propósito.</li>
+                <li>Liberdade real, não aparência de liberdade.</li>
+                <li>Legado que atravessa gerações.</li>
+              </ul>
+            </div>
+          </div>
+          <p className="vip-vipe-quote">Seus gastos são um reflexo dos seus valores. Se o extrato não combina com o que você acredita, algo está errado.</p>
+          
+          {/* BLOCO 3: A JORNADA */}
+          <div className="jornada-section">
+            <h2 className="jornada-title">Sua jornada no Método VIPE</h2>
+            <p className="jornada-subtitle">4 níveis. Da raiz ao topo. Sem atalhos.</p>
+            <div className="jornada-piramide">
+              <div className="jornada-nivel jornada-nivel-4">
+                <span className="jornada-label">↗ Nível 04</span>
+                <h4>Viver com propósito</h4>
+                <p className="jornada-tech"><em>Life Wealth</em></p>
+                <p>Viva seu propósito com suas finanças estruturadas, domine sobre suas decisões e um legado que seus filhos vão herdar.</p>
               </div>
-              <div className="pilar-card">
-                <div className="pilar-num">02</div>
-                <div>
-                  <p className="pilar-title">Alma: Prioridades</p>
-                  <p className="pilar-desc">Funded Contentment, o cálculo exato da paz de espírito</p>
-                </div>
+              <div className="jornada-nivel jornada-nivel-3">
+                <span className="jornada-label">Nível 03</span>
+                <h4>O plano de ação</h4>
+                <p className="jornada-tech"><em>Plano Mestre</em></p>
+                <p>Orçamento, investimentos e projetos desenhados para o seu perfil — não para o perfil do banco.</p>
               </div>
-              <div className="pilar-card">
-                <div className="pilar-num">03</div>
-                <div>
-                  <p className="pilar-title">Corpo: Plano Mestre</p>
-                  <p className="pilar-desc">Orçamento Base Zero, Projetos, Investimentos</p>
-                </div>
+              <div className="jornada-nivel jornada-nivel-2">
+                <span className="jornada-label">Nível 02</span>
+                <h4>O que te traz paz</h4>
+                <p className="jornada-tech"><em>Prioridades</em></p>
+                <p>Calculamos o número exato que você precisa para viver em paz — sem excesso, sem escassez.</p>
               </div>
-              <div className="pilar-card">
-                <div className="pilar-num">04 ↑</div>
-                <div>
-                  <p className="pilar-title">Life Wealth</p>
-                  <p className="pilar-desc">Plenitude, Domínio e Legado que atravessa gerações</p>
-                </div>
+              <div className="jornada-nivel jornada-nivel-1">
+                <span className="jornada-label">↓ Nível 01</span>
+                <h4>Quem você é</h4>
+                <p className="jornada-tech"><em>Identidade</em></p>
+                <p>Descobrimos seus valores e prioridades reais — o que você não abre mão.</p>
               </div>
             </div>
           </div>
           
           <p className="verse">"Os planos bem elaborados levam à fartura." — Provérbios 21:5</p>
+          
+          <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{marginTop: '24px'}}>Quero começar minha jornada →</a>
         </div>
       </section>
 
@@ -211,7 +258,7 @@ export default function Home() {
         <div className="container">
           <p className="section-tag">Energia Vital</p>
           <h2 className="section-title">O custo real da sua vida — o que ninguém te conta</h2>
-          <p className="section-subtitle">Você pode ter R$ 50mil/mês e ainda estar quebrado. Sem saber o custo real, você não sabe se está gerando riqueza ou apenas mantendo aparências.</p>
+          <p className="section-subtitle">Você pode ter R$ 50mil/mês e ainda estar quebrado. Sem saber o custo real, você não sabe se está gerando riqueza ou apenas sobrevivendo com conforto.</p>
           
           <div className="energia-grid">
             <div className="energia-card">
@@ -222,7 +269,7 @@ export default function Home() {
             <div className="energia-card">
               <div className="energia-icon">🔍</div>
               <h3>Comparação Percebido x Real</h3>
-              <p>O que você acha que gasta vs. o que realmente sai do seu bolso. A diferença pode ser shockante.</p>
+              <p>O que você acha que gasta vs. o que realmente sai do seu bolso. A diferença pode ser chocante.</p>
             </div>
             <div className="energia-card">
               <div className="energia-icon">💸</div>
@@ -232,7 +279,7 @@ export default function Home() {
             <div className="energia-card">
               <div className="energia-icon">⏱️</div>
               <h3>Projeção de Sustentabilidade</h3>
-              <p>Quanto tempo você pode manter esse padrão? projection de 10, 20, 30 anos à frente.</p>
+              <p>Quanto tempo você pode manter esse padrão? Projeção de 10, 20, 30 anos à frente..</p>
             </div>
           </div>
           
@@ -269,6 +316,8 @@ export default function Home() {
               <p>O que queremos deixar para nossos filhos? Valores e patrimônio que atravessam gerações.</p>
             </div>
           </div>
+          
+          <p className="codigo-highlight">Diga adeus a briga em casa por dinheiro.</p>
           
           <div className="codigo-depoimento">
             <p>"Éramos complementares, não incompatíveis! O Código da Família mudou nossa dinâmica."</p>
@@ -332,37 +381,31 @@ export default function Home() {
               <div className="servico-icon">🧠</div>
               <h3>Diagnóstico Comportamental</h3>
               <p>VIPE ID, Money Scripts e Vieses Cognitivos. Mapeamos como seu cérebro lida com dinheiro.</p>
-              <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="servico-btn">Saiba mais →</a>
             </div>
             <div className="servico-card">
               <div className="servico-icon">👨‍👩‍👧‍👦</div>
               <h3>Código da Família</h3>
-              <p>Metodologia de alinhamento financeiro para casais. As 3 Perguntas de Kinder transformam discussões de dinheiro em conversas de propósito.</p>
-              <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="servico-btn">Saiba mais →</a>
+              <p>Metodologia de alinhamento financeiro para casais. perguntas que revelam seus valores mais profundos transformam discussões de dinheiro em conversas de propósito.</p>
             </div>
             <div className="servico-card">
               <div className="servico-icon">📊</div>
               <h3>Método VFP</h3>
               <p>Viabilidade Financeira de Projetos. Parecer matemático e comportamental antes de decisões grandes.</p>
-              <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="servico-btn">Saiba mais →</a>
             </div>
             <div className="servico-card">
               <div className="servico-icon">📱</div>
               <h3>APP Castelo Forte</h3>
               <p>Gerenciador com IA comportamental, nudges personalizados e conexão com consultor.</p>
-              <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="servico-btn">Saiba mais →</a>
             </div>
             <div className="servico-card">
               <div className="servico-icon">💰</div>
               <h3>Inteligência Financeira</h3>
               <p>Otimização de taxas, milhas, produtos bancários. Estancamos o sangramento dos bancos.</p>
-              <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="servico-btn">Saiba mais →</a>
             </div>
             <div className="servico-card">
               <div className="servico-icon">🛡️</div>
               <h3>Gestão Patrimonial</h3>
               <p>Alocação de ativos personalizada ao perfil VIPE, objetivos de vida e horizonte temporal.</p>
-              <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="servico-btn">Saiba mais →</a>
             </div>
           </div>
         </div>
@@ -371,7 +414,7 @@ export default function Home() {
       {/* 7. PLANOS */}
       <section className="section section-alt" id="planos">
         <div className="container">
-          <p className="section-tag">A Arquitetura da Sua Liberdade</p>
+          <p className="section-tag">Os Planos</p>
           <h2 className="section-title">Escolha sua jornada</h2>
           
           <div className="planos-grid">
@@ -380,16 +423,14 @@ export default function Home() {
               <p className="plano-price">R$ 475<span style={{fontSize: '1rem', fontWeight: 400}}>/mês</span></p>
               <p className="plano-tag">O início da jornada</p>
               <ul className="plano-features">
-                <li>Diagnóstico VIPE ID completo</li>
-                <li>Money Scripts + Vieses Cognitivos</li>
-                <li>Chave Mestra: foco no gargalo #1</li>
-                <li>APP Castelo Forte com IA</li>
-                <li>Inteligência Financeira bancária</li>
-                <li>Gestão de Patrimônio personalizada</li>
+                <li><strong>VIPE ID</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Como seu cérebro toma decisões financeiras.</em></li>
+                <li><strong>Money Scripts</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Identifique as crenças invisíveis que sabotam seu patrimônio.</em></li>
+                <li><strong>Vieses Cognitivos</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>As 12 armadilhas mentais que te fazem perder dinheiro.</em></li>
+                <li><strong>Gerenciador Financeiro com IA</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Seu dinheiro organizado e conectado aos seus bancos em tempo real.</em></li>
+                <li><strong>Método VFP</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Parecer matemático antes de cada decisão financeira importante.</em></li>
+                <li><strong>Inteligência Financeira</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>O mundo bancário revelado — use o sistema a seu favor.</em></li>
+                <li><strong>Gestão de Patrimônio</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Raio-X completo e estratégia para cada real do seu patrimônio.</em></li>
               </ul>
-              <div className="plano-roi">
-                <p>ROI: Paga-se a si mesmo cortando a ineficiência do banco.</p>
-              </div>
               <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn btn-outline" style={{width: '100%', textAlign: 'center'}}>Saiba mais</a>
             </div>
             
@@ -399,16 +440,13 @@ export default function Home() {
               <p className="plano-price">R$ 995<span style={{fontSize: '1rem', fontWeight: 400}}>/mês</span></p>
               <p className="plano-tag">Transformação completa</p>
               <ul className="plano-features">
-                <li>Tudo do Estandarte +</li>
-                <li>Código da Família (alinhamento casal)</li>
-                <li>Método VFP para decisões de projetos</li>
-                <li>Energia Vital (custo real da sua vida)</li>
-                <li>Kingdom's Seed (networking cristão)</li>
-                <li>VIPE Assessment avançado</li>
+                <li><strong>Tudo do Estandarte +</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Todas as 7 ferramentas incluídas.</em></li>
+                <li><strong>Código da Família</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Diga adeus a briga em casa por dinheiro.</em></li>
+                <li><strong>Energia Vital</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Saiba quanto custa sua vida.</em></li>
+                <li><strong>DNA Organizacional</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Alinhe visão, valores e finanças com seus sócios.</em></li>
+                <li><strong>Kingdom's Seed</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Rede de empresários cristão que fazem negócios com propósito.</em></li>
+                <li><strong>VIPE Assessment</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Análise comportamental profunda — perfil natural vs. adaptado.</em></li>
               </ul>
-              <div className="plano-roi">
-                <p>ROI: Blindagem contra más decisões + alinhamento do legado.</p>
-              </div>
               <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{width: '100%', textAlign: 'center'}}>Começar agora</a>
             </div>
             
@@ -417,16 +455,13 @@ export default function Home() {
               <p className="plano-price">Customizado</p>
               <p className="plano-tag">Gestão de elite</p>
               <ul className="plano-features">
-                <li>Tudo do Legado +</li>
-                <li>Segurança jurídica</li>
-                <li>Otimização tributária</li>
-                <li>Planejamento sucessório</li>
-                <li>Estruturação de holdings</li>
-                <li>Time multidisciplinar</li>
+                <li><strong>Tudo do Legado +</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Todas as ferramentas anteriores incluídas.</em></li>
+                <li><strong>Segurança Jurídica</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Proteção legal para seu patrimônio e operações.</em></li>
+                <li><strong>Otimização Tributária</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Pague menos impostos dentro da lei — cada centavo conta.</em></li>
+                <li><strong>Planejamento Sucessório</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Garanta que seu legado llegue às próximas gerações sem perdas.</em></li>
+                <li><strong>Estruturação de Holdings</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Proteção e multiplicação do patrimônio com estrutura societária.</em></li>
+                <li><strong>Time Multidisciplinar</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Advogados, contadores e especialistas dedicados ao seu caso.</em></li>
               </ul>
-              <div className="plano-roi">
-                <p>Para patrimônios que exigem gestão premium.</p>
-              </div>
               <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn btn-outline" style={{width: '100%', textAlign: 'center'}}>Saiba mais</a>
             </div>
           </div>
@@ -461,17 +496,18 @@ export default function Home() {
         <div className="container">
           <p className="section-tag">Comece Sua Transformação</p>
           <h2 className="section-title">De que lado você quer estar?</h2>
+          <p className="cta-urgencia">Cada dia que passa, R$ 115 se vão do seu patrimônio.</p>
           
           <div className="cta-cards">
-            <div className="cta-card red">
+            <div className="cta-card cta-banco">
               <h3>O Banco</h3>
               <p>quer sua taxa</p>
             </div>
-            <div className="cta-card red">
+            <div className="cta-card cta-guru">
               <h3>O Guru</h3>
               <p>quer seu like</p>
             </div>
-            <div className="cta-card gold">
+            <div className="cta-card cta-castelo">
               <h3>A Castelo Forte</h3>
               <p>quer o seu Legado</p>
             </div>
@@ -484,6 +520,35 @@ export default function Home() {
           </div>
           
           <p className="verse">"O homem de bem deixa herança para os filhos de seus filhos." — Provérbios 13:22</p>
+        </div>
+      </section>
+
+      {/* NOSSA HISTÓRIA */}    <section className="section" id="historia">
+        <div className="container">
+          <p className="section-tag">Nossa História</p>
+          <h2 className="section-title">O Castelo Forte</h2>
+          <p className="section-subtitle">15 anos nos maiores bancos do país. Uma missão: proteger quem construye.</p>
+          
+          <div className="historia-manifesto">
+            <blockquote>Se alguém te prometeu riqueza… cuidado!</blockquote>
+            <p>Passamos 15 anos dentro dos maiores bancos do país. Vimos coisas que ninguém te conta.</p>
+            <p>Eu vi pessoas ganando mais de 50 mil por mês… falidas emocionalmente.</p>
+            <p>Vi famílias destruídas pordinheiro. Vi pessoas honestas com medo de boleto.</p>
+            <p>E mesmo assim… o mercado continua prometendo riqueza. Mas me responde… Quem consegue garantir o amanhã?</p>
+            <div className="historia-divider"></div>
+            <h3>Existe uma guerra pelo seu patrimônio agora.</h3>
+            <ul>
+              <li>De um lado: o sistema bancário lucrando 140 bilhões com a sua desorganização.</li>
+              <li>Do outro: os gurus vendendo milagres que alimenta a sua ganância.</li>
+              <li>E você está no meio, vivendo no piloto automático, pagando o custo do amanhã que nunca chega.</li>
+            </ul>
+            <p className="historia-final">Porque o problema não é o conhecimento… é sim como você se comporta em relação ao dinheiro.</p>
+            <p>A ciência já provou: <strong>80% comportamento e 20% conhecimento</strong></p>
+            <p>Aliamos a nossa experiência do mercado financeiro com o entendimento profundo de como a mente humana se comporta em relação ao dinheiro.</p>
+            <div className="historia-quote">
+              <p>"Afinal, riqueza não se constrói com promessa. Se constrói com princípios."</p>
+            </div>
+          </div>
         </div>
       </section>
 
