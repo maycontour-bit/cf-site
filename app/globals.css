@@ -174,7 +174,7 @@ body {
 }
 
 .hero-subtitle {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   line-height: 1.7;
   color: rgba(253,253,253,0.85);
   margin-bottom: 32px;
@@ -199,7 +199,7 @@ body {
 
 .hero-stat strong {
   display: block;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   color: var(--gold);
   margin-bottom: 4px;
 }
@@ -225,7 +225,7 @@ body {
 
 .section-title {
   font-family: var(--font-title);
-  font-size: clamp(2.4rem, 4.5vw, 3rem);
+  font-size: clamp(2.5rem, 5vw, 3.5rem) !important;
   text-align: center;
   margin-bottom: 12px;
 }
@@ -237,7 +237,7 @@ body {
   max-width: 560px;
   margin-left: auto;
   margin-right: auto;
-  font-size: 1.15rem;
+  font-size: 0.9rem;
   line-height: 1.5;
 }
 
@@ -280,7 +280,7 @@ body {
 }
 
 .custo-legenda {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   color: var(--gold);
   font-style: italic;
   margin-top: 12px;
@@ -344,12 +344,12 @@ body {
 
 .reconhece-icon {
   color: var(--gold);
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   font-weight: bold;
 }
 
 .reconhece-card p {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   line-height: 1.5;
 }
 
@@ -357,7 +357,7 @@ body {
   text-align: center;
   color: var(--gold);
   font-style: italic;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   margin: 24px 0 32px;
 }
 
@@ -377,7 +377,7 @@ body {
 }
 
 .alert-box p {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   color: rgba(253,253,253,0.9);
 }
 
@@ -447,7 +447,7 @@ body {
 
 .pilar-num {
   font-family: var(--font-title);
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   font-weight: 700;
   color: var(--gold);
   min-width: 40px;
@@ -490,7 +490,7 @@ body {
 }
 
 .perfil-card h3 {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   margin-bottom: 8px;
 }
 
@@ -533,7 +533,7 @@ body {
 
 .servico-card h3 {
   font-family: var(--font-title);
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   margin-bottom: 12px;
 }
 
@@ -556,7 +556,7 @@ body {
 }
 
 .servico-card p {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   color: var(--gray-muted);
 }
 
@@ -624,7 +624,7 @@ body {
 .plano-features li {
   padding: 10px 0;
   border-bottom: 1px solid rgba(255,255,255,0.07);
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -665,7 +665,7 @@ body {
 }
 
 .calc-card h3 {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   margin-bottom: 8px;
 }
 
@@ -723,12 +723,12 @@ body {
 }
 
 .cta-card h3 {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   margin-bottom: 8px;
 }
 
 .cta-card p {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
 }
 
 .cta-final-box {
@@ -743,7 +743,7 @@ body {
 
 .cta-final-box h2 {
   font-family: var(--font-title);
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   color: var(--gold);
   margin-bottom: 16px;
 }
@@ -763,7 +763,7 @@ body {
 
 .footer-logo {
   font-family: var(--font-title);
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   font-weight: 700;
   color: var(--gold);
   letter-spacing: 1.5px;
@@ -889,7 +889,7 @@ body {
 }
 
 .energia-card h3 {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   margin-bottom: 8px;
 }
 
@@ -909,13 +909,13 @@ body {
 
 .energia-depoimento p {
   font-style: italic;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   margin-bottom: 8px;
 }
 
 .energia-depoimento cite {
   color: var(--gray-muted);
-  font-size: 0.95rem;
+  font-size: 0.9rem;
 }
 
 /* Código da Família */
@@ -943,7 +943,7 @@ body {
 }
 
 .codigo-card h3 {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   margin-bottom: 8px;
 }
 
@@ -963,13 +963,13 @@ body {
 
 .codigo-depoimento p {
   font-style: italic;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   margin-bottom: 8px;
 }
 
 .codigo-depoimento cite {
   color: var(--gray-muted);
-  font-size: 0.95rem;
+  font-size: 0.9rem;
 }
 
 @media (max-width: 768px) {
@@ -993,12 +993,12 @@ body {
 
 .antes-depois-card h3 {
   font-family: var(--font-title);
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   margin: 16px 0 8px;
 }
 
 .antes-depois-card p {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   color: var(--gray-muted);
 }
 
@@ -1027,7 +1027,7 @@ body {
   text-align: center;
   color: var(--gold);
   font-style: italic;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   margin-bottom: 24px;
 }
 
@@ -1054,7 +1054,7 @@ body {
 }
 
 .historia-manifesto p {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   color: rgba(253,253,253,0.85);
   margin-bottom: 14px;
   line-height: 1.7;
@@ -1089,7 +1089,7 @@ body {
 
 .historia-manifesto h3 {
   font-family: var(--font-title);
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   color: var(--white);
   margin-bottom: 16px;
 }
@@ -1111,7 +1111,7 @@ body {
   font-style: italic;
   color: var(--white);
   margin: 0;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
 }
 /* v2 */
 
@@ -1141,7 +1141,7 @@ body {
 }
 
 .dor-card-title {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   margin-bottom: 16px;
 }
 
@@ -1160,7 +1160,7 @@ body {
 .dor-card ul li {
   padding: 8px 0;
   border-bottom: 1px solid rgba(255,255,255,0.05);
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   color: rgba(253,253,253,0.85);
 }
 
@@ -1170,7 +1170,7 @@ body {
 
 .metodo-authority {
   text-align: center;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   color: var(--gray-muted);
   margin: 32px 0;
   font-style: italic;
@@ -1202,7 +1202,7 @@ body {
 
 .vip-card-title,
 .vipe-card-title {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   margin-bottom: 16px;
 }
 
@@ -1226,7 +1226,7 @@ body {
 .vipe-card ul li {
   list-style: none;
   padding: 10px 0;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   color: rgba(253,253,253,0.85);
   border-bottom: 1px solid rgba(255,255,255,0.05);
 }
@@ -1238,7 +1238,7 @@ body {
 
 .vip-vipe-quote {
   text-align: center;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   color: var(--gold);
   font-style: italic;
   margin: 32px 0;
@@ -1289,7 +1289,7 @@ body {
 }
 
 .jornada-nivel h4 {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   margin-bottom: 4px;
 }
 
@@ -1302,7 +1302,7 @@ body {
 }
 
 .jornada-nivel p:last-child {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   color: var(--gray-muted);
   line-height: 1.5;
 }
@@ -1353,12 +1353,12 @@ body {
   color: var(--gold);
   text-align: center;
   margin-top: 48px;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
 }
 
 /* Checkbox vazio */
 .reconhece-icon {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   color: var(--gold);
   margin-right: 4px;
 }
@@ -1367,7 +1367,7 @@ body {
 .custo-urgencia {
   color: #E57373;
   font-style: italic;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   text-align: center;
   margin: 24px 0;
 }
@@ -1387,7 +1387,7 @@ body {
 .cta-urgencia {
   color: #E57373;
   font-style: italic;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   text-align: center;
   margin: 16px 0 32px;
 }
@@ -1422,7 +1422,7 @@ body {
 }
 
 .cta-card h3 {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   margin-bottom: 8px;
   font-family: var(--font-title);
 }
@@ -1437,7 +1437,7 @@ body {
 .plano-features li {
   padding: 12px 0;
   border-bottom: 1px solid rgba(255,255,255,0.1);
-  font-size: 0.95rem;
+  font-size: 0.9rem;
 }
 
 .plano-features li:last-child {

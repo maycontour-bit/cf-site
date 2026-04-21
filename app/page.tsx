@@ -120,6 +120,8 @@ export default function Home() {
           
           <p className="custo-urgencia">Cada dia que passa, R$ 115 se vão do seu patrimônio. Quantos dias mais você vai esperar?</p>
           
+          <p className="custo-urgencia">Cada dia que passa, R$ 115 se vão do seu patrimônio. Quantos dias mais você vai esperar?</p>
+          
           <div className="custo-grid">
             <div className="custo-card">
               <div className="custo-value">R$ 115</div>
