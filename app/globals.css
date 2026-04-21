@@ -1444,3 +1444,42 @@ body {
 .plano-features li:last-child {
   border-bottom: none;
 }
+
+/* TEAM SECTION */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 40px;
+}
+.team-card {
+  background: #001A38;
+  border-radius: 12px;
+  padding: 24px;
+  text-align: center;
+  border-top: 3px solid #C4A35A;
+}
+.team-foto {
+  margin-bottom: 16px;
+}
+.team-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+  color: #fff;
+}
+.team-cargo {
+  font-size: 0.9rem;
+  color: #C4A35A;
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+.team-bio {
+  font-size: 0.85rem;
+  color: #7A8A9A;
+  line-height: 1.6;
+}
+@media (max-width: 768px) {
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+}

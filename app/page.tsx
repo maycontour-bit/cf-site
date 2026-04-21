@@ -31,6 +31,7 @@ export default function Home() {
             <a href="#metodo">Método</a>
             <a href="#servicos">Serviços</a>
             <a href="#planos">Planos</a>
+            <a href="#time">Time</a>
             <a href="#historia">Nossa História</a>
             <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary">Agendar diagnóstico</a>
           </div>
@@ -444,7 +445,7 @@ export default function Home() {
                 <li><strong>Energia Vital</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Saiba quanto custa sua vida.</em></li>
                 <li><strong>DNA Organizacional</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Alinhe visão, valores e finanças com seus sócios.</em></li>
                 <li><strong>Kingdom's Seed</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Rede de empresários cristão que fazem negócios com propósito.</em></li>
-                <li><strong>VIPE Assessment</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Análise comportamental profunda — perfil natural vs. adaptado.</em></li>
+                <li><strong>VIPE Assessment</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Entenda como você pensa e as melhores decisões para sua vida 360.</em></li>
               </ul>
               <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{width: '100%', textAlign: 'center'}}>Começar agora</a>
             </div>
