@@ -1483,3 +1483,134 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+/* ====================================================
+   SISTEMA TIPOGRÁFICO PADRONIZADO — v2.0
+   DESKTOP ≥768px | MOBILE <768px
+   ==================================================== */
+
+/* H1 — Títulos principais de seção */
+h1, .section-title, .hero h1 {
+  font-family: 'Playfair Display', serif !important;
+  font-size: 48px;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 1.2;
+  color: #FDFDFD;
+  margin-bottom: 16px;
+}
+
+/* H2 — Subtítulos de seção (tags pequenas) */
+.section-tag {
+  font-family: 'Inter', sans-serif;
+  font-size: 11px !important;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #C4A35A;
+  margin-bottom: 12px;
+}
+
+/* H3 — Subtítulos internos de cards/blocos */
+h3, .perfil-card h3, .servico-card h3, .calc-card h3, .cta-card h3, .energia-card h3, .codigo-card h3, .historia-manifesto h3, .team-card h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 1.3;
+  color: #FDFDFD;
+  margin-bottom: 12px;
+}
+
+/* H4 — Nomes de níveis da pirâmide */
+h4, .jornada-nivel h4 {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #FDFDFD;
+  margin-bottom: 6px;
+}
+
+/* H5 — Labels técnicos itálicos */
+h5 {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  font-style: italic;
+  color: #7A8A9A;
+  margin-bottom: 8px;
+}
+
+/* CORPO DE TEXTO — Parágrafos normais */
+p, body {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #E5E5E5;
+}
+
+/* CORPO DESTAQUE — Frases importantes itálicas douradas */
+.verse, blockquote, .custo-urgencia, .hero-subtitle em, .hero-bio, .section-subtitle {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: italic;
+  color: #C4A35A;
+  line-height: 1.5;
+}
+
+/* CHECKBOXES — Labels */
+.checkbox-label, .calc-label, .form-label {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #E5E5E5;
+}
+
+/* STATS — Números grandes */
+.hero-stat strong, .hero-stat strong, .custo-value, .energia-value, .stat-value {
+  font-family: 'Playfair Display', serif;
+  font-size: 56px;
+  font-weight: 700;
+  color: #C4A35A;
+  line-height: 1;
+}
+
+/* STATS — Labels pequenos */
+.hero-stat, .custo-label, .energia-label, .stat-label {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #7A8A9A;
+}
+
+/* ====================================================
+   MOBILE OVERRIDES — viewport < 768px
+   ==================================================== */
+@media (max-width: 767px) {
+  h1, .section-title, .hero h1 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 17px;
+  }
+  p, body {
+    font-size: 15px;
+  }
+  .verse, blockquote, .custo-urgencia {
+    font-size: 16px;
+  }
+  .hero-stat strong, .custo-value, .energia-value, .stat-value {
+    font-size: 40px;
+  }
+  .section-tag {
+    font-size: 10px !important;
+    letter-spacing: 1.5px;
+  }
+}
