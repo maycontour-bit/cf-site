@@ -225,12 +225,13 @@ body {
 
 .section-title {
   font-family: var(--font-title);
-  font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+  font-size: clamp(2.5rem, 5vw, 3.5rem) !important;
   text-align: center;
   margin-bottom: 12px;
 }
 
 .section-subtitle {
+  font-size: 0.9rem !important;
   color: var(--gray-muted);
   text-align: center;
   margin-bottom: 40px;
