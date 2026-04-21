@@ -421,7 +421,7 @@ export default function Home() {
           <div className="planos-grid">
             <div className="plano-card">
               <h3 className="plano-nome">ESTANDARTE</h3>
-              <p className="plano-price">R$ 475<span style={{fontSize: '1rem', fontWeight: 400}}>/mês</span></p>
+              <p className="plano-price">Sob Consulta</p>
               <p className="plano-tag">O início da jornada</p>
               <ul className="plano-features">
                 <li><strong>VIPE ID</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Como seu cérebro toma decisões financeiras.</em></li>
@@ -438,7 +438,7 @@ export default function Home() {
             <div className="plano-card featured">
               <span className="plano-badge">Mais Popular</span>
               <h3 className="plano-nome">LEGADO</h3>
-              <p className="plano-price">R$ 995<span style={{fontSize: '1rem', fontWeight: 400}}>/mês</span></p>
+              <p className="plano-price">Sob Consulta</p>
               <p className="plano-tag">Transformação completa</p>
               <ul className="plano-features">
                 <li><strong>Tudo do Estandarte +</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Todas as 7 ferramentas incluídas.</em></li>
