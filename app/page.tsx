@@ -391,7 +391,7 @@ export default function Home() {
             <div className="servico-card">
               <div className="servico-icon">📊</div>
               <h3>Método VFP</h3>
-              <p>Aquele imóvel, aquele carro, aquela sociedade — você fez a conta de verdade antes de assinar?</p>
+              <p>Aquele imóvel, aquele carro, aquela sociedade - nossa ferramenta te direciona a melhor solução com cenários matemáticos</p>
             </div>
             <div className="servico-card">
               <div className="servico-icon">📱</div>
