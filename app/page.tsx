@@ -422,13 +422,13 @@ export default function Home() {
               <p className="plano-price">Sob Consulta</p>
               <p className="plano-tag">O início da jornada</p>
               <ul className="plano-features">
-                <li><strong>VIPE ID</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Como seu cérebro toma decisões financeiras.</em></li>
-                <li><strong>Money Scripts</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Identifique as crenças invisíveis que sabotam seu patrimônio.</em></li>
-                <li><strong>Vieses Cognitivos</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>As 12 armadilhas mentais que te fazem perder dinheiro.</em></li>
-                <li><strong>Gerenciador Financeiro com IA</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Seu dinheiro organizado e conectado aos seus bancos em tempo real.</em></li>
-                <li><strong>Método VFP</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Parecer matemático antes de cada decisão financeira importante.</em></li>
-                <li><strong>Inteligência Financeira</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>O mundo bancário revelado — use o sistema a seu favor.</em></li>
-                <li><strong>Gestão de Patrimônio</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Raio-X completo e estratégia para cada real do seu patrimônio.</em></li>
+                <li><strong>VIPE ID</strong><br/><em>Como seu cérebro toma decisões financeiras.</em></li>
+                <li><strong>Money Scripts</strong><br/><em>Identifique as crenças invisíveis que sabotam seu patrimônio.</em></li>
+                <li><strong>Vieses Cognitivos</strong><br/><em className="plano-desc">As 12 armadilhas mentais que te fazem perder dinheiro.</em></li>
+                <li><strong>Gerenciador Financeiro com IA</strong><br/><em className="plano-desc">Seu dinheiro organizado e conectado aos seus bancos em tempo real.</em></li>
+                <li><strong>Método VFP</strong><br/><em className="plano-desc">Parecer matemático antes de cada decisão financeira importante.</em></li>
+                <li><strong>Inteligência Financeira</strong><br/><em className="plano-desc">O mundo bancário revelado — use o sistema a seu favor.</em></li>
+                <li><strong>Gestão de Patrimônio</strong><br/><em className="plano-desc">Raio-X completo e estratégia para cada real do seu patrimônio.</em></li>
               </ul>
               <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn btn-outline" style={{width: '100%', textAlign: 'center'}}>Saiba mais</a>
             </div>
@@ -439,12 +439,12 @@ export default function Home() {
               <p className="plano-price">Sob Consulta</p>
               <p className="plano-tag">Transformação completa</p>
               <ul className="plano-features">
-                <li><strong>Tudo do Estandarte +</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Todas as 7 ferramentas incluídas.</em></li>
-                <li><strong>Código da Família</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Diga adeus a briga em casa por dinheiro.</em></li>
-                <li><strong>Energia Vital</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Saiba quanto custa sua vida.</em></li>
-                <li><strong>DNA Organizacional</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Alinhe visão, valores e finanças com seus sócios.</em></li>
-                <li><strong>Kingdom's Seed</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Rede de empresários cristão que fazem negócios com propósito.</em></li>
-                <li><strong>VIPE Assessment</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Entenda como você pensa e as melhores decisões para sua vida 360.</em></li>
+                <li><strong>Tudo do Estandarte +</strong><br/><em className="plano-desc">Todas as 7 ferramentas incluídas.</em></li>
+                <li><strong>Código da Família</strong><br/><em>Diga adeus a briga em casa por dinheiro.</em></li>
+                <li><strong>Energia Vital</strong><br/><em>Saiba quanto custa sua vida.</em></li>
+                <li><strong>DNA Organizacional</strong><br/><em>Alinhe visão, valores e finanças com seus sócios.</em></li>
+                <li><strong>Kingdom's Seed</strong><br/><em className="plano-desc">Rede de empresários cristão que fazem negócios com propósito.</em></li>
+                <li><strong>VIPE Assessment</strong><br/><em>Entenda como você pensa e as melhores decisões para sua vida 360°.</em></li>
               </ul>
               <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{width: '100%', textAlign: 'center'}}>Começar agora</a>
             </div>
@@ -454,12 +454,12 @@ export default function Home() {
               <p className="plano-price">Customizado</p>
               <p className="plano-tag">Gestão de elite</p>
               <ul className="plano-features">
-                <li><strong>Tudo do Legado +</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Todas as ferramentas anteriores incluídas.</em></li>
-                <li><strong>Segurança Jurídica</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Proteção legal para seu patrimônio e operações.</em></li>
-                <li><strong>Otimização Tributária</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Pague menos impostos dentro da lei — cada centavo conta.</em></li>
-                <li><strong>Planejamento Sucessório</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Garanta que seu legado llegue às próximas gerações sem perdas.</em></li>
-                <li><strong>Estruturação de Holdings</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Proteção e multiplicação do patrimônio com estrutura societária.</em></li>
-                <li><strong>Time Multidisciplinar</strong><br/><em style={{fontSize:'0.8rem',color:'#7A8A9A'}}>Advogados, contadores e especialistas dedicados ao seu caso.</em></li>
+                <li><strong>Tudo do Legado +</strong><br/><em className="plano-desc">Todas as ferramentas anteriores incluídas.</em></li>
+                <li><strong>Segurança Jurídica</strong><br/><em className="plano-desc">Proteção legal para seu patrimônio e operações.</em></li>
+                <li><strong>Otimização Tributária</strong><br/><em className="plano-desc">Pague menos impostos dentro da lei — cada centavo conta.</em></li>
+                <li><strong>Planejamento Sucessório</strong><br/><em className="plano-desc">Garanta que seu legado llegue às próximas gerações sem perdas.</em></li>
+                <li><strong>Estruturação de Holdings</strong><br/><em className="plano-desc">Proteção e multiplicação do patrimônio com estrutura societária.</em></li>
+                <li><strong>Time Multidisciplinar</strong><br/><em className="plano-desc">Advogados, contadores e especialistas dedicados ao seu caso.</em></li>
               </ul>
               <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn btn-outline" style={{width: '100%', textAlign: 'center'}}>Saiba mais</a>
             </div>
