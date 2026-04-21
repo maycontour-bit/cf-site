@@ -523,6 +523,41 @@ export default function Home() {
         </div>
       </section>
 
+{/* NOSSO TIME */}
+      <section className="section" id="time">
+        <div className="container">
+          <p className="section-tag">NOSSO TIME</p>
+          <h2 className="section-title">Quem vai te guiar</h2>
+          
+          <div className="team-grid">
+            <div className="team-card">
+              <div className="team-foto">
+                <Image src="/maycon.jpg" alt="Maycon Valente" width={200} height={200} style={{borderRadius: '50%', objectFit: 'cover'}} />
+              </div>
+              <h3>Maycon Valente</h3>
+              <p className="team-cargo">Socio Fundador</p>
+              <p className="team-bio">Mais de 15 anos no mercado financeiro. MBA em Financas, MBA em Planejamento Financeiro, Especialista em Investimentos. Chair C12 Brasil, Board FCA Brasil. Atuacao nos principais bancos e corretoras do pais.</p>
+            </div>
+            <div className="team-card">
+              <div className="team-foto">
+                <Image src="/david.jpg" alt="David Mendes" width={200} height={200} style={{borderRadius: '50%', objectFit: 'cover'}} />
+              </div>
+              <h3>David Mendes</h3>
+              <p className="team-cargo">Socio Senior</p>
+              <p className="team-bio">Economista com MBA em Gestao Empresarial pela FGV. Especialista em investimentos com mais de 16 anos de experiencia no mercado financeiro, atuando nos principais bancos e corretoras do pais.</p>
+            </div>
+            <div className="team-card">
+              <div className="team-foto">
+                <Image src="/janaina.jpg" alt="Janaina" width={200} height={200} style={{borderRadius: '50%', objectFit: 'cover'}} />
+              </div>
+              <h3>Janaina</h3>
+              <p className="team-cargo">Gestao de Operacoes</p>
+              <p className="team-bio">Administradora com MBA em Gestao Estrategica de Negocios. Especialista no Mercado Financeiro com mais de 14 anos de experiencia no relacionamento no mercado financeiro atuando nos principais Bancos do Pais.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* NOSSA HISTÓRIA */}    <section className="section" id="historia">
         <div className="container">
           <p className="section-tag">Nossa História</p>
