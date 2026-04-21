@@ -53,6 +53,7 @@ export default function Home() {
               <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary">Agendar diagnóstico gratuito</a>
               <a href="#metodo" className="btn btn-outline">Conheça o método</a>
             </div>
+            <p className="hero-expertise" style={{color: "#7A8A9A", fontSize: "11px", fontStyle: "italic", textAlign: "center", marginBottom: "8px"}}>Nossa Expertise</p>
             <div className="hero-stats">
               <div className="hero-stat">
                 <strong>15+ Anos</strong>
@@ -89,7 +90,7 @@ export default function Home() {
             </div>
             <div className="reconhece-card">
               <span className="reconhece-icon">□</span>
-              <p>Já tentou planilhas, apps e assessores — nada muda de verdade</p>
+              <p>Já tentou planilhas, apps e outras soluções — nada muda de verdade</p>
             </div>
             <div className="reconhece-card">
               <span className="reconhece-icon">□</span>
@@ -138,7 +139,7 @@ export default function Home() {
               <p className="custo-label">em 10 anos</p>
             </div>
           </div>
-          
+          <p style={{color: "#E57373", fontStyle: "italic", fontSize: "15px", textAlign: "center", margin: "24px 0"}}>Cada dia que passa, R$ 115 se vão do seu patrimônio. Quantos dias mais você vai esperar?</p>
           <div className="custo-img">
             <div className="antes-depois-mini">
               <div className="mini-card">
@@ -394,7 +395,7 @@ export default function Home() {
             </div>
             <div className="servico-card">
               <div className="servico-icon">📱</div>
-              <h3>APP Castelo Forte</h3>
+              <h3>Gerenciador Financeiro com IA</h3>
               <p>Quantos apps e bancos você usa? E ainda não sabe para onde vai o dinheiro? Aqui tudo se conecta.</p>
             </div>
             <div className="servico-card">
