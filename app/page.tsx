@@ -219,33 +219,35 @@ export default function Home() {
             <p className="jornada-subtitle">4 níveis. Da raiz ao topo. Sem atalhos.</p>
             <div className="jornada-piramide">
               <div className="jornada-nivel jornada-nivel-4">
-                <span className="jornada-label">Nível 04 ↗</span>
+                <span className="jornada-label">↗ Nível 04</span>
                 <h4>Viver com propósito</h4>
-                <p className="jornada-tech">Life Wealth</p>
+                <p className="jornada-tech"><em>Life Wealth</em></p>
                 <p>Plenitude financeira, domínio sobre suas decisões e um legado que seus filhos vão herdar.</p>
               </div>
               <div className="jornada-nivel jornada-nivel-3">
                 <span className="jornada-label">Nível 03</span>
                 <h4>O plano de ação</h4>
-                <p className="jornada-tech">Plano Mestre</p>
+                <p className="jornada-tech"><em>Plano Mestre</em></p>
                 <p>Orçamento, investimentos e projetos desenhados para o seu perfil — não para o perfil do banco.</p>
               </div>
               <div className="jornada-nivel jornada-nivel-2">
                 <span className="jornada-label">Nível 02</span>
                 <h4>O que te traz paz</h4>
-                <p className="jornada-tech">Prioridades</p>
+                <p className="jornada-tech"><em>Prioridades</em></p>
                 <p>Calculamos o número exato que você precisa para viver em paz — sem excesso, sem escassez.</p>
               </div>
               <div className="jornada-nivel jornada-nivel-1">
-                <span className="jornada-label">Nível 01 ↓</span>
+                <span className="jornada-label">↓ Nível 01</span>
                 <h4>Quem você é</h4>
-                <p className="jornada-tech">Identidade</p>
-                <p>Antes de falar de dinheiro, descobrimos seus valores, suas prioridades reais e o que você não abre mão.</p>
+                <p className="jornada-tech"><em>Identidade</em></p>
+                <p>Descobrimos seus valores e prioridades reais — o que você não abre mão.</p>
               </div>
             </div>
           </div>
           
-          <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{marginTop: '40px'}}>Quero conhecer o método</a>
+          <p className="verse">"Os planos bem elaborados levam à fartura." — Provérbios 21:5</p>
+          
+          <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{marginTop: '24px'}}>Quero começar minha jornada →</a>
         </div>
       </section>
 

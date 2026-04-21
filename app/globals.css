@@ -1312,3 +1312,44 @@ body {
   }
   .jornada-nivel { width: 100% !important; }
 }
+
+/* Pirate upgrade - technical names small italic gray */
+.jornada-tech {
+  font-size: 0.7rem !important;
+  font-style: italic !important;
+  color: var(--gray-muted) !important;
+  opacity: 0.7;
+  margin-bottom: 6px;
+  font-weight: 400 !important;
+}
+
+/* Seta de progressão */
+.jornada-label {
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.jornada-nivel-1 .jornada-label { color: var(--gold); opacity: 0.6; }
+.jornada-nivel-2 .jornada-label { color: var(--gold); opacity: 0.7; }
+.jornada-nivel-3 .jornada-label { color: var(--gold); opacity: 0.8; }
+.jornada-nivel-4 .jornada-label { color: var(--gold); opacity: 1; }
+
+/* Hover effect */
+.jornada-nivel {
+  transition: all 0.3s ease;
+}
+.jornada-nivel:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+}
+
+/* Verse styling */
+.verse {
+  font-style: italic;
+  color: var(--gold);
+  text-align: center;
+  margin-top: 48px;
+  font-size: 1.1rem;
+}
