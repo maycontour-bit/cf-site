@@ -30,7 +30,7 @@ body {
   font-family: var(--font-body);
   background: var(--navy);
   color: var(--white);
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 .container {
@@ -164,7 +164,7 @@ body {
 
 .hero h1 {
   font-family: var(--font-title);
-  font-size: clamp(2rem, 3.5vw, 2.8rem);
+  font-size: clamp(2.2rem, 4vw, 3rem);
   line-height: 1.1;
   margin-bottom: 16px;
 }
@@ -174,7 +174,7 @@ body {
 }
 
 .hero-subtitle {
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   line-height: 1.7;
   color: rgba(253,253,253,0.85);
   margin-bottom: 32px;
@@ -199,7 +199,7 @@ body {
 
 .hero-stat strong {
   display: block;
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   color: var(--gold);
   margin-bottom: 4px;
 }
@@ -225,7 +225,7 @@ body {
 
 .section-title {
   font-family: var(--font-title);
-  font-size: clamp(2.2rem, 4vw, 2.6rem);
+  font-size: clamp(2.4rem, 4.5vw, 3rem);
   text-align: center;
   margin-bottom: 12px;
 }
@@ -238,7 +238,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   font-size: 1.15rem;
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 /* Custo Amanhã Grid */
@@ -344,7 +344,7 @@ body {
 
 .reconhece-icon {
   color: var(--gold);
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   font-weight: bold;
 }
 
@@ -357,7 +357,7 @@ body {
   text-align: center;
   color: var(--gold);
   font-style: italic;
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   margin: 24px 0 32px;
 }
 
@@ -447,7 +447,7 @@ body {
 
 .pilar-num {
   font-family: var(--font-title);
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   font-weight: 700;
   color: var(--gold);
   min-width: 40px;
@@ -533,7 +533,7 @@ body {
 
 .servico-card h3 {
   font-family: var(--font-title);
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   margin-bottom: 12px;
 }
 
@@ -665,7 +665,7 @@ body {
 }
 
 .calc-card h3 {
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   margin-bottom: 8px;
 }
 
@@ -692,7 +692,7 @@ body {
 .depoimento-card blockquote {
   font-style: italic;
   margin-bottom: 16px;
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 .depoimento-card cite {
@@ -723,7 +723,7 @@ body {
 }
 
 .cta-card h3 {
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   margin-bottom: 8px;
 }
 
@@ -743,7 +743,7 @@ body {
 
 .cta-final-box h2 {
   font-family: var(--font-title);
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   color: var(--gold);
   margin-bottom: 16px;
 }
@@ -763,7 +763,7 @@ body {
 
 .footer-logo {
   font-family: var(--font-title);
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   font-weight: 700;
   color: var(--gold);
   letter-spacing: 1.5px;
@@ -889,7 +889,7 @@ body {
 }
 
 .energia-card h3 {
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   margin-bottom: 8px;
 }
 
@@ -909,7 +909,7 @@ body {
 
 .energia-depoimento p {
   font-style: italic;
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   margin-bottom: 8px;
 }
 
@@ -943,7 +943,7 @@ body {
 }
 
 .codigo-card h3 {
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   margin-bottom: 8px;
 }
 
@@ -963,7 +963,7 @@ body {
 
 .codigo-depoimento p {
   font-style: italic;
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   margin-bottom: 8px;
 }
 
@@ -993,7 +993,7 @@ body {
 
 .antes-depois-card h3 {
   font-family: var(--font-title);
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   margin: 16px 0 8px;
 }
 
@@ -1027,7 +1027,7 @@ body {
   text-align: center;
   color: var(--gold);
   font-style: italic;
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   margin-bottom: 24px;
 }
 
@@ -1054,7 +1054,7 @@ body {
 }
 
 .historia-manifesto p {
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   color: rgba(253,253,253,0.85);
   margin-bottom: 14px;
   line-height: 1.7;
@@ -1089,7 +1089,7 @@ body {
 
 .historia-manifesto h3 {
   font-family: var(--font-title);
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   color: var(--white);
   margin-bottom: 16px;
 }
@@ -1111,7 +1111,7 @@ body {
   font-style: italic;
   color: var(--white);
   margin: 0;
-  font-size: 1.1rem;
+  font-size: 0.95rem;
 }
 /* v2 */
 
@@ -1141,7 +1141,7 @@ body {
 }
 
 .dor-card-title {
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   margin-bottom: 16px;
 }
 
@@ -1202,7 +1202,7 @@ body {
 
 .vip-card-title,
 .vipe-card-title {
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   margin-bottom: 16px;
 }
 
@@ -1238,7 +1238,7 @@ body {
 
 .vip-vipe-quote {
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   color: var(--gold);
   font-style: italic;
   margin: 32px 0;
@@ -1289,7 +1289,7 @@ body {
 }
 
 .jornada-nivel h4 {
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   margin-bottom: 4px;
 }
 
@@ -1353,12 +1353,12 @@ body {
   color: var(--gold);
   text-align: center;
   margin-top: 48px;
-  font-size: 1.1rem;
+  font-size: 0.95rem;
 }
 
 /* Checkbox vazio */
 .reconhece-icon {
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   color: var(--gold);
   margin-right: 4px;
 }
@@ -1367,7 +1367,7 @@ body {
 .custo-urgencia {
   color: #E57373;
   font-style: italic;
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   text-align: center;
   margin: 24px 0;
 }
@@ -1387,7 +1387,7 @@ body {
 .cta-urgencia {
   color: #E57373;
   font-style: italic;
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   text-align: center;
   margin: 16px 0 32px;
 }
@@ -1422,7 +1422,7 @@ body {
 }
 
 .cta-card h3 {
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   margin-bottom: 8px;
   font-family: var(--font-title);
 }
