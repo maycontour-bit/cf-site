@@ -222,7 +222,7 @@ export default function Home() {
                 <span className="jornada-label">↗ Nível 04</span>
                 <h4>Viver com propósito</h4>
                 <p className="jornada-tech"><em>Life Wealth</em></p>
-                <p>Plenitude financeira, domínio sobre suas decisões e um legado que seus filhos vão herdar.</p>
+                <p>Viva seu propósito com suas finanças estruturadas, domine sobre suas decisões e um legado que seus filhos vão herdar.</p>
               </div>
               <div className="jornada-nivel jornada-nivel-3">
                 <span className="jornada-label">Nível 03</span>
