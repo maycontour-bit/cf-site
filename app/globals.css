@@ -1483,3 +1483,172 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+
+/* ============================================
+   SISTEMA TIPOGRÁFICO v3.0 — CASTELO FORTE
+   Aplicado: 22/04/2026
+   ============================================ */
+
+/* ---- VARIÁVEIS ---- */
+:root {
+  --font-title: 'Playfair Display', serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+/* ---- H1: títulos principais ---- */
+h1, .section-title, .hero h1 {
+  font-family: var(--font-title);
+  font-size: 48px;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 1.2;
+  color: #FDFDFD;
+  margin-bottom: 16px;
+}
+
+/* ---- H2: tags de seção ---- */
+h2, .section-tag, .hero-tag {
+  font-family: var(--font-body);
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #C4A35A;
+  text-align: center;
+}
+
+/* ---- H3: subtítulos de cards ---- */
+h3, .perfil-card h3, .servico-card h3, .calc-card h3, .cta-card h3,
+.energia-card h3, .codigo-card h3, .team-card h3, .servico-title {
+  font-family: var(--font-title);
+  font-size: 22px;
+  font-weight: 600;
+  font-style: normal;
+  color: #FDFDFD;
+  margin-bottom: 12px;
+}
+
+/* ---- H4: níveis da pirâmide ---- */
+h4, .jornada-nivel h4 {
+  font-family: var(--font-title);
+  font-size: 18px;
+  font-weight: 600;
+  color: #FDFDFD;
+}
+
+/* ---- H5: labels técnicos ---- */
+h5, .nivel-label {
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 400;
+  font-style: italic;
+  color: #7A8A9A;
+}
+
+/* ---- CORPO DE TEXTO ---- */
+p, body, .servico-card p, .perfil-card p, .calc-card p {
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #E5E5E5;
+}
+
+/* ---- FRASES DESTAQUE (itálico dourado) ---- */
+.hero-subtitle, .verse, .custo-urgencia, blockquote, .section-subtitle {
+  font-family: var(--font-body);
+  font-size: 17px;
+  font-weight: 400;
+  font-style: italic;
+  color: #C4A35A;
+  line-height: 1.5;
+}
+
+.verse {
+  text-align: center;
+  margin: 24px auto;
+  max-width: 700px;
+}
+
+/* ---- STATS HERO ---- */
+.hero-stat {
+  font-size: 12px;
+  font-weight: 400;
+  color: #7A8A9A;
+  text-align: center;
+}
+
+.hero-stat strong {
+  display: block;
+  font-family: var(--font-title);
+  font-size: 56px;
+  font-weight: 700;
+  color: #C4A35A;
+  line-height: 1;
+  margin-bottom: 4px;
+}
+
+/* ---- CHECKBOXES ---- */
+.checkbox-label, .reconhece-item label {
+  font-family: var(--font-body);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #E5E5E5;
+}
+
+/* ---- PLANOS: ferramentas ---- */
+.plano-features li strong {
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 700;
+  color: #FDFDFD;
+}
+
+.plano-features li em {
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-style: italic;
+  color: #7A8A9A;
+}
+
+/* ---- NAV ---- */
+.nav-links a {
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(253,253,253,0.85);
+}
+
+/* ---- FOOTER ---- */
+.footer p, .footer-links a {
+  font-size: 14px;
+  color: rgba(253,253,253,0.6);
+}
+
+/* ---- MOBILE < 768px ---- */
+@media (max-width: 767px) {
+  h1, .section-title, .hero h1 {
+    font-size: 36px;
+  }
+  h3, .perfil-card h3, .servico-card h3 {
+    font-size: 18px;
+  }
+  h4, .jornada-nivel h4 {
+    font-size: 17px;
+  }
+  p, body {
+    font-size: 15px;
+  }
+  .hero-subtitle, .verse, blockquote {
+    font-size: 16px;
+  }
+  .hero-stat strong {
+    font-size: 40px;
+  }
+  .section-tag {
+    font-size: 10px;
+    letter-spacing: 1.5px;
+  }
+}
