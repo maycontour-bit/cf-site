@@ -53,7 +53,7 @@ export default function Home() {
               <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary">Agendar diagnóstico gratuito</a>
               <a href="#metodo" className="btn btn-outline">Conheça o método</a>
             </div>
-            <p style={{color: "#7A8A9A", fontSize: "13px", fontStyle: "italic", textAlign: "center", marginBottom: "12px", fontWeight: 500, letterSpacing: "0.5px"}}>Nossa Expertise</p>
+            <p style={{color: "#7A8A9A", fontSize: "18px", fontStyle: "italic", textAlign: "center", marginBottom: "16px", fontWeight: 500, letterSpacing: "1.5px"}}>Nossa Expertise</p>
             <div className="hero-stats">
               <div className="hero-stat">
                 <strong>15+ Anos</strong>
@@ -137,7 +137,7 @@ export default function Home() {
               <p className="custo-label">em 10 anos</p>
             </div>
           </div>
-          <p style={{color: "#E57373", fontStyle: "italic", fontSize: "15px", textAlign: "center", margin: "24px 0"}}>Cada dia que passa, R$ 115 se vão do seu patrimônio. Quantos dias mais você vai esperar?</p>
+          <p style={{color: "#E57373", fontStyle: "italic", fontSize: "22px", textAlign: "center", margin: "32px 0", fontWeight: 500}}>Cada dia que passa, R$ 115 se vão do seu patrimônio. Quantos dias mais você vai esperar?</p>
           <div className="custo-img">
             <div className="antes-depois-mini">
               <div className="mini-card">
@@ -515,7 +515,7 @@ export default function Home() {
           <div className="cta-final-box">
             <h2>Sessão de Diagnóstico Gratuita</h2>
             <p>60 minutos para descobrir seu perfil VIPE ID, identificar o gargalo #1 das suas finanças e calcular quanto você está perdendo por mês.</p>
-            <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{fontSize: '1rem', padding: '16px 40px'}}>Agendar pelo WhatsApp</a>
+            <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{fontSize: '1.2rem', padding: '20px 48px'}}>Agendar pelo WhatsApp</a>
           </div>
           
           <p className="verse">"O homem de bem deixa herança para os filhos de seus filhos." — Provérbios 13:22</p>
