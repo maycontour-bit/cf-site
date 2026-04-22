@@ -1918,3 +1918,183 @@ p, body, .servico-card p, .perfil-card p, .calc-card p,
     font-size: 12px;
   }
 }
+
+/* ============================================
+   SISTEMA TIPOGRÁFICO v3.0 — CASTELO FORTE
+   ============================================ */
+
+/* ---- Fontes ---- */
+:root {
+  --font-title: 'Playfair Display', serif;
+  --font-body: 'Inter', sans-serif;
+  --gold: #C4A35A;
+  --navy: #001A38;
+  --white: #FDFDFD;
+  --gray: #E5E5E5;
+  --gray-muted: #7A8A9A;
+}
+
+/* ---- H1: títulos principais ---- */
+h1, .section-title, .hero h1, .historia-manifesto h3 {
+  font-family: var(--font-title) !important;
+  font-size: 48px !important;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 1.2;
+  color: var(--white);
+  margin-bottom: 16px;
+}
+
+/* ---- H2: tags de seção ---- */
+h2, .section-tag {
+  font-family: var(--font-body);
+  font-size: 11px !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--gold);
+  text-align: center;
+}
+
+/* ---- H3: subtítulos de cards ---- */
+h3, .perfil-card h3, .servico-card h3, .calc-card h3, .cta-card h3,
+.energia-card h3, .codigo-card h3, .historia-manifesto h3, .team-card h3,
+.plano-nome, .servico-title {
+  font-family: var(--font-title);
+  font-size: 22px !important;
+  font-weight: 600;
+  font-style: normal;
+  color: var(--white);
+  margin-bottom: 12px;
+}
+
+/* ---- H4: níveis da pirâmide ---- */
+h4, .jornada-nivel h4 {
+  font-family: var(--font-title);
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--white);
+}
+
+/* ---- H5: labels técnicos ---- */
+h5, .nivel-label {
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--gray-muted);
+}
+
+/* ---- CORPO DE TEXTO ---- */
+p, body, .servico-card p, .perfil-card p, .calc-card p {
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--gray);
+}
+
+/* ---- FRASES DESTAQUE (itálico dourado) ---- */
+.hero-subtitle, .verse, .custo-urgencia, blockquote, .section-subtitle,
+.hero-bio {
+  font-family: var(--font-body);
+  font-size: 17px;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--gold);
+  line-height: 1.5;
+}
+
+.verse {
+  text-align: center;
+  margin: 24px auto;
+  max-width: 700px;
+}
+
+/* ---- STATS HERO ---- */
+.hero-stat {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--gray-muted);
+  text-align: center;
+}
+
+.hero-stat strong {
+  display: block;
+  font-family: var(--font-title);
+  font-size: 56px !important;
+  font-weight: 700;
+  color: var(--gold);
+  line-height: 1;
+  margin-bottom: 4px;
+}
+
+/* ---- CHECKBOXES ---- */
+.checkbox-label, .reconhece-item label {
+  font-family: var(--font-body);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--gray);
+}
+
+/* ---- PLANOS: ferramentas ---- */
+.plano-features li strong {
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--white);
+}
+
+.plano-features li em {
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-style: italic;
+  color: var(--gray-muted);
+}
+
+/* ---- NAV ---- */
+.nav-links a {
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(253,253,253,0.85);
+}
+
+/* ---- FOOTER ---- */
+.footer p, .footer-links a {
+  font-size: 14px;
+  color: rgba(253,253,253,0.6);
+}
+
+/* ---- MOBILE < 768px ---- */
+@media (max-width: 767px) {
+  h1, .section-title, .hero h1, .historia-manifesto h3 {
+    font-size: 36px !important;
+  }
+  h3, .perfil-card h3, .servico-card h3 {
+    font-size: 18px !important;
+  }
+  h4, .jornada-nivel h4 {
+    font-size: 17px;
+  }
+  p, body {
+    font-size: 15px;
+  }
+  .hero-subtitle, .verse, blockquote {
+    font-size: 16px;
+  }
+  .hero-stat strong {
+    font-size: 40px !important;
+  }
+  .section-tag {
+    font-size: 10px !important;
+    letter-spacing: 1.5px;
+  }
+  .plano-features li strong {
+    font-size: 14px;
+  }
+  .plano-features li em {
+    font-size: 12px;
+  }
+}
